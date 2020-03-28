@@ -1,3 +1,22 @@
+## Data Science - Exploration and Modeling
+### Transit Travel Optimization for Greater Toronto Area
+### Kaggle House Prices
+### Titanic Classification
+### Examining The Assumptions of Linear Regression
+
+## Machine Learning - Training and Deployment
+### HockeyBot, The Facebook Messenger Chatbot
+
+## Data Collection and Cleaning
+### National Hockey League Interview Transcripts
+### Medical Mask Donation Hubs
+
+## Python Programming Projects
+### Web Browser Activity Tracker
+### Motion Detection
+
+## Currently In Progress
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/danitamm/danitamm.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
