@@ -1,10 +1,8 @@
-## Data Science - Exploration and Modeling
-### Transit Travel Optimization for Greater Toronto Area
-### Kaggle House Prices
-### Titanic Classification
+## Data Exploration and Modeling
+### Interview Transcripts - Contrasting and Classifying Hockey Players vs Coaches
 ### Examining The Assumptions of Linear Regression
 
-## Machine Learning - Training and Deployment
+## Machine Learning - Model Training and Deployment
 ### HockeyBot, The Facebook Messenger Chatbot
 
 ## Data Collection and Cleaning
@@ -12,10 +10,15 @@
 ### Medical Mask Donation Hubs
 
 ## Python Programming Projects
+### Transit Travel Optimization for Greater Toronto Area
 ### Web Browser Activity Tracker
 ### Motion Detection
 
-## Currently In Progress
+## Master's Research (In Progress)
+
+## Honorable Mentions
+### Kaggle House Prices
+### Titanic Classification
 
 ## Welcome to GitHub Pages
 
