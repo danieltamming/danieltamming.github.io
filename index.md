@@ -1,4 +1,5 @@
 ## Data Exploration and Modeling
+### Public Transit Travel Optimization for Greater Toronto Area
 ### Interview Transcripts - Contrasting and Classifying Hockey Players vs Coaches
 ### Examining The Assumptions of Linear Regression
 
@@ -10,11 +11,15 @@
 ### Medical Mask Donation Hubs
 
 ## Python Programming Projects
-### Transit Travel Optimization for Greater Toronto Area
 ### Web Browser Activity Tracker
 ### Motion Detection
 
 ## Master's Research (In Progress)
+
+## Blog Posts
+Medium posts explaining two of the above projects.
+### NHL Player Chatbot
+### A Quantitative Study of NHL Interviews
 
 ## Honorable Mentions
 ### Kaggle House Prices
