@@ -1,3 +1,5 @@
+## Master's Research (In Progress)
+
 ## Machine Learning - Model Training and Deployment
 ### HockeyBot, The Facebook Messenger Chatbot
 ##### Product
@@ -26,7 +28,6 @@ By constructing a graphical representation of the 9155 stops and 213 routes, we 
  - [Project GitHub repository](https://github.com/danitamm/mapping)
 ##### Technologies Used
  - 
- 
  
 ### Inference On The Boston Housing Dataset Using Linear Regression
 ##### Findings
@@ -92,8 +93,6 @@ As Firefox runs it stores the current session's information a lz4 compressed jso
 A security camera that begins recording video once motion is detected. Used to investigate my housemates' suspicions that a cat has been sneaking into our house in the early morning via our front door mail slot (the results are inconclusive).
 ##### Approach
 Motion is detected by background subtraction, in which the difference between each consecutive frame is calculated and studied. The frames are converted to grayscale, blurred with a Gaussian filter, and the element-wise absolute difference between frames is computed. The threshold is applied to the result to map each value to 0 or 255. The resultant image is dilated for display purposes. When motion is detected for 5 consecutive frames, it begins saving the video feeds. These are saved until 30 seconds have passed without any movement. The videos are saved to timestamped folders, and the camera feed video is annotated with the time and the status (whether motion is detected at each given moment). 
-
-## Master's Research (In Progress)
 
 ## Blog Posts
 Medium posts explaining elements of the above projects. 
