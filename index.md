@@ -82,6 +82,9 @@ A webscraping script that creates a csv file with columns for each entry and eac
 
 ## Python Programming Projects
 ### Web Browser Activity Tracker
+#### Product
+#### Data
+#### Approach
 ### Motion Detection
 
 ## Master's Research (In Progress)
