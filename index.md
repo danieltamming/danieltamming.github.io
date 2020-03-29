@@ -1,4 +1,35 @@
+## Machine Learning - Model Training and Deployment
+### HockeyBot, The Facebook Messenger Chatbot
+#### Product
+Upon receiving a message that could plausibly begin a hockey player's interview response (e.g. "Well you know"), it responds with a 5 setence continuation of that message. Active for over 4 months, it has maintained a 100% response rate within 30 seconds of receiving a message.
+#### Data
+See "National Hockey League Interview Transcripts" in the Data Collection and Cleaning section of this page.
+#### Approach
+A unidirectional recurrent neural network is trained on the interview transcript data. The training set is comprised of each 6 contiguous words/symbols, where the first 5 are the input example and the 6th is the label. Having learned a probability distribution over the possible choices for the next word/token, this distribution is sampled to generate new text. This model is then deployed to a Heroku server that responsds to all messages at any time. 
+##### Relevant Links
+ - [Facebook Messenger link](m.me/102447081166159) to interact with the bot
+ - [Bot training GitHub repository](https://github.com/danitamm/hockey-bot)
+ - [Bot Heroku deployment GitHub repository](https://github.com/danitamm/HockeyBotProduction)
+##### Technologies Used
+ - 
+
 ## Data Exploration and Modeling
+### Interview Transcripts - Contrasting and Classifying Hockey Players vs Coaches
+#### Findings and Product
+1. The difference between coaches' and players' average sentiment is not statistically significant. 
+2. The difference between coaches' and players' average selfishness is not statistically significant. 
+3. The variance in both sentiment and selfishness is greater for players than it is for coaches.
+4. A model classifying speech as from a coach or from a player is trained and achieves an F1 score of 0.969 on the test set.
+#### Data
+See "National Hockey League Interview Transcripts" in the Data Collection and Cleaning section of this page.
+#### Approach
+Sentiment is classified using the Afinn sentiment lexicon, where each word is assigned a sentiment score between -5 and +5. Selfishness is scored using the same approach but with a simple lexicon of my creation, where first person singular and first person plural pronouns are assigned scores of +1 and -1, respectively. Sentiment and selfishness are both normalized by the number of words in the interview response. The player vs coach classifier is a logistic regression model with TF-IDF features as input. 
+##### Relevant Links
+ - [ASAP Sports](http://www.asapsports.com/), the sports interview aggregation site
+ - [Kaggle Kernel](https://www.kaggle.com/dtamming/starter-kernel-nhl-interviews), published alongside my dataset
+##### Technologies Used
+ - 
+ 
 ### Public Transit Travel Optimization for Greater Toronto Area
 #### Product 
 A program that calculates within 10 seconds the best place for a pedestrian to meet a driver. The command line interface finds the optimal meeting location for any valid query (anywhere within range of Toronto public transit)4.
@@ -9,23 +40,6 @@ By constructing a graphical representation of the 9155 stops and 213 routes, we 
 ##### Relevant Links
  - [Toronto Open Data](http://opendata.toronto.ca)
  - [Project GitHub repository](https://github.com/danitamm/mapping)
-##### Technologies Used
- - 
-
-### Interview Transcripts - Contrasting and Classifying Hockey Players vs Coaches
-#### Findings and Product
-1. The difference between coaches' and players' average sentiment is not statistically significant. 
-2. The difference between coaches' and players' average selfishness is not statistically significant. 
-3. The variance in both sentiment and selfishness is greater for players than it is for coaches.
-4. A model classifying speech as from a coach or from a player is trained and achieves an F1 score of 0.969 on the test set.
-
-#### Data
-See "National Hockey League Interview Transcripts" in the Data Collection and Cleaning section of this page.
-#### Approach
-Sentiment is classified using the Afinn sentiment lexicon, where each word is assigned a sentiment score between -5 and +5. Selfishness is scored using the same approach but with a simple lexicon of my creation, where first person singular and first person plural pronouns are assigned scores of +1 and -1, respectively. Sentiment and selfishness are both normalized by the number of words in the interview response. The player vs coach classifier is a logistic regression model with TF-IDF features as input. 
-##### Relevant Links
- - [ASAP Sports](http://www.asapsports.com/), the sports interview aggregation site
- - [Kaggle Kernel](https://www.kaggle.com/dtamming/starter-kernel-nhl-interviews), published alongside my dataset
 ##### Technologies Used
  - 
  
@@ -41,21 +55,6 @@ The Boston Housing dataset contains medians, means, and proportions of various a
 After validating linear regressions' assumptios, we construct confidence intervals and test hypotheses regarding predictive variables' relationships with the target. 
 ##### Relevant Links
  - [GitHub repository](https://github.com/danitamm/boston-housing-linear-regression)
-##### Technologies Used
- - 
-
-## Machine Learning - Model Training and Deployment
-### HockeyBot, The Facebook Messenger Chatbot
-#### Product
-Upon receiving a message that could plausibly begin a hockey player's interview response (e.g. "Well you know"), it responds with a 5 setence continuation of that message. Active for over 4 months, it has maintained a 100% response rate within 30 seconds of receiving a message.
-#### Data
-See "National Hockey League Interview Transcripts" in the Data Collection and Cleaning section of this page.
-#### Approach
-A unidirectional recurrent neural network is trained on the interview transcript data. The training set is comprised of each 6 contiguous words/symbols, where the first 5 are the input example and the 6th is the label. Having learned a probability distribution over the possible choices for the next word/token, this distribution is sampled to generate new text. This model is then deployed to a Heroku server that responsds to all messages at any time. 
-##### Relevant Links
- - [Facebook Messenger link](m.me/102447081166159) to interact with the bot
- - [Bot training GitHub repository](https://github.com/danitamm/hockey-bot)
- - [Bot Heroku deployment GitHub repository](https://github.com/danitamm/HockeyBotProduction)
 ##### Technologies Used
  - 
 
@@ -83,16 +82,22 @@ A webscraping script that creates a csv file with columns for each entry and eac
 ## Python Programming Projects
 ### Web Browser Activity Tracker
 #### Product
+A command line program that tracks daily Firefox browser use, saving the information to a json file. An accompanying program reads the saved json files and organizes it into a Pandas dataframe. It currently plots a bar graph of the use metric per website, but can be used to analyze the data in any desired way. 
 #### Data
-#### Approach
+As Firefox runs it stores the current session's information a lz4 compressed json file. The file is updated roughly every 5 seconds, allowing the program to closely track internet use.
+
 ### Motion Detection
+#### Product
+A security camera that begins recording video once motion is detected. Used to investigate my housemates' suspicions that a cat has been sneaking into our house in the early morning via our front door mail slot (the results are inconclusive).
+#### Approach
+Motion is detected by background subtraction, in which the difference between each consecutive frame is calculated and studied. The frames are converted to grayscale, blurred with a Gaussian filter, and the element-wise absolute difference between frames is computed. The threshold is applied to the result to map each value to 0 or 255. The resultant image is dilated for display purposes. When motion is detected for 5 consecutive frames, it begins saving the video feeds. These are saved until 30 seconds have passed without any movement. The videos are saved to timestamped folders, and the camera feed video is annotated with the time and the status (whether motion is detected at each given moment). 
 
 ## Master's Research (In Progress)
 
 ## Blog Posts
-Medium posts explaining elements of the above projects.
-### NHL Player Chatbot
-### A Quantitative Study of NHL Interviews
+Medium posts explaining elements of the above projects. 
+1. [NHL Player Chatbot](https://medium.com/analytics-vidhya/nhl-player-chatbot-5c882e330fb7) was selected by Medium curators for distribution in the site's AI and Machine Learning sections. Published on Analytics Vidhya's Medium page.
+2. [A Quantitative Study of NHL Interviews](https://medium.com/analytics-vidhya/nhl-player-chatbot-5c882e330fb7) was published on Analytics Vidhya's Medium page.
 
 ## Honorable Mentions
 ### Kaggle House Prices
