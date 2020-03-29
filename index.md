@@ -1,11 +1,11 @@
 ## Data Exploration and Modeling
 ### Public Transit Travel Optimization for Greater Toronto Area
 #### Product 
-Organized Toronto transit's 9155 stops and 213 routes in a graph that enables optimal route calculations. Combined graph with the Google Directions API to calculate within 10 seconds the best place for a pedestrian to meet a driver. The command line interface provides the optimal meeting location anywhere within range of Toronto public transit. 
+A program that calculates within 10 seconds the best place for a pedestrian to meet a driver. The command line interface finds the optimal meeting location for any valid query (anywhere within range of Toronto public transit)4.
 #### Data
 Extracted relevant data from a set of 7 csv files that is made publicly available on the Toronto OpenData website. 
 #### Approach
-By constructing a directed NetworkX graph using publicly Toronto Transit Commission (TTC) data, we call the Google API only once per use. Relevant data is organized into 2 csv files that are saved to memory and loaded as Pandas dataframes. 
+By constructing a graphical representation of the 9155 stops and 213 routes, we restrict our Google API use to only once per query. Relevant data gathered from the Toronto Open Data website and is organized into 2 csv files that are saved to memory and loaded as Pandas dataframes. 
 ##### Relevant Links
  - [Toronto Open Data](http://opendata.toronto.ca)
  - [Project GitHub repository](https://github.com/danitamm/mapping)
@@ -18,6 +18,7 @@ By constructing a directed NetworkX graph using publicly Toronto Transit Commiss
 2. The difference between coaches' and players' average selfishness is not statistically significant. 
 3. The variance in both sentiment and selfishness is greater for players than it is for coaches.
 4. A model classifying speech as from a coach or from a player is trained and achieves an F1 score of 0.969 on the test set.
+
 #### Data
 See "National Hockey League Interview Transcripts" in the Data Collection and Cleaning section of this page.
 #### Approach
