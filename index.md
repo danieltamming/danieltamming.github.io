@@ -1,4 +1,4 @@
-## University of Waterloo Master's Thesis (In Progress)
+# University of Waterloo Master's Thesis (In Progress)
  - Research and develop synthetic data generation techniques that provide multi-percentage point accuracy increases to state-of-the-art text classification models
  - Design and evaluate methods that combat overfitting by increasing the size and richness of NLP datasets
  - Develop modular code that tests 48 combinations of datasets, models, techniques, and applications
@@ -9,7 +9,7 @@
 ##### Libraries Used
  - pytorch, nltk, spacy, huggingface transformers, gensim
 
-## Machine Learning - Model Training and Deployment
+# Machine Learning - Model Training and Deployment
 ### HockeyBot, The Facebook Messenger Chatbot
 ##### Product
 Upon receiving a message that could plausibly begin a hockey player's interview response (e.g. "Well you know"), it responds with a 5 setence continuation of that message. Active for over 4 months, it has maintained a 100% response rate within 30 seconds of receiving a message.
@@ -25,7 +25,7 @@ A unidirectional recurrent neural network is trained on the interview transcript
 ##### Libraries Used
  - pytorch
 
-## Data Exploration and Modeling
+# Data Exploration and Modeling
 ### Public Transit Travel Optimization for Greater Toronto Area
 ##### Product 
 A program that calculates within 10 seconds the best place for a pedestrian to meet a driver. The command line interface finds the optimal meeting location for any valid query (anywhere within range of Toronto public transit)4.
@@ -73,7 +73,7 @@ Sentiment is classified using the Afinn sentiment lexicon, where each word is as
 ##### Libraries Used
  - scikit-learn, afinn, nltk, seaborn, matplotlib, numpy, pandas
  
-## Data Collection and Cleaning
+# Data Collection and Cleaning
 ### National Hockey League Interview Transcripts
 ##### Product 
 A csv file with columns team1 and team2 (the two teams in the Stanley Cup Final), the date, the interviewee name and job type (player, coach, other), and the interview transcripts.
@@ -96,7 +96,7 @@ A webscraping script that creates a csv file with columns for each entry and eac
 ##### Libraries Used
  - beautifulsoup, selenium, numpy, pandas
 
-## Python Programming Projects
+# Python Programming Projects
 ### Web Browser Activity Tracker
 ##### Product
 A command line program that tracks daily Firefox browser use, saving the information to a json file. An accompanying program reads the saved json files and organizes it into a Pandas dataframe. It currently plots a bar graph of the use metric per website, but can be used to analyze the data in any desired way. 
@@ -118,7 +118,7 @@ Medium posts explaining elements of the above projects.
 1. [NHL Player Chatbot](https://medium.com/analytics-vidhya/nhl-player-chatbot-5c882e330fb7) was selected by Medium curators for distribution in the site's AI and Machine Learning sections. Published on Analytics Vidhya's Medium page.
 2. [A Quantitative Study of NHL Interviews](https://medium.com/analytics-vidhya/nhl-player-chatbot-5c882e330fb7) was published on Analytics Vidhya's Medium page.
 
-## Honorable Mentions
+# Honorable Mentions
 Data wrangling, feature engineering, and model finetuning with two classic Kaggle datasets. As of March 30, 2020, the resultant models achieved results in the following percentiles of the competitions: 
 #### Kaggle House Prices
  - 21st percentile (first of two submissions)
