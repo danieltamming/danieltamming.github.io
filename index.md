@@ -49,7 +49,7 @@ After validating linear regressions' assumptios, we construct confidence interva
 1. The difference between coaches' and players' average sentiment is not statistically significant. 
 2. The difference between coaches' and players' average selfishness is not statistically significant. 
 3. The variance in both sentiment and selfishness is greater for players than it is for coaches.
-4. A model classifying speech as from a coach or from a player is trained and achieves an F1 score of 0.969 on the test set.
+4. A model classifying speech as from a coach or from a player is trained and achieves an F1 score of 0.969 on the test set.  
 ##### Data
 See "National Hockey League Interview Transcripts" in the Data Collection and Cleaning section of this page.
 ##### Approach
