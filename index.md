@@ -3,9 +3,9 @@
  - Design and evaluate methods that combat overfitting by increasing the size and richness of NLP datasets
  - Develop modular code that tests 48 combinations of datasets, models, techniques, and applications
 ##### Relevant Links (Coming Soon)
- - Private GitHub repo will be made public upon completion
+ - GitHub repo will be made public upon completion
 ##### Libraries Used
- - Git, PyTorch, nltk, spacy, HuggingFace Transformers
+ - pytorch, nltk, spacy, huggingface transformers, gensim
 
 ## Machine Learning - Model Training and Deployment
 ### HockeyBot, The Facebook Messenger Chatbot
@@ -20,7 +20,7 @@ A unidirectional recurrent neural network is trained on the interview transcript
  - [Bot training GitHub repository](https://github.com/danitamm/hockey-bot)
  - [Bot Heroku deployment GitHub repository](https://github.com/danitamm/HockeyBotProduction)
 ##### Libraries Used
- - PyTorch
+ - pytorch
 
 ## Data Exploration and Modeling
 ### Public Transit Travel Optimization for Greater Toronto Area
@@ -33,8 +33,8 @@ By constructing a graphical representation of the 9155 stops and 213 routes, we 
 ##### Relevant Links
  - [Toronto Open Data](http://opendata.toronto.ca)
  - [Project GitHub repository](https://github.com/danitamm/mapping)
-##### Technologies Used
- - 
+##### Libraries Used
+ - networkx, pandas, numpy
  
 ### Inference On The Boston Housing Dataset Using Linear Regression
 ##### Findings
@@ -48,8 +48,8 @@ The Boston Housing dataset contains medians, means, and proportions of various a
 After validating linear regressions' assumptios, we construct confidence intervals and test hypotheses regarding predictive variables' relationships with the target. 
 ##### Relevant Links
  - [GitHub repository](https://github.com/danitamm/boston-housing-linear-regression)
-##### Technologies Used
- - 
+##### Libaries Used
+ - scipy, seaborn, matplotlib, pandas, numpy
 
 ### Contrasting Hockey Players' and Coaches' Speech Patterns
 ##### Findings and Product
@@ -64,8 +64,8 @@ Sentiment is classified using the Afinn sentiment lexicon, where each word is as
 ##### Relevant Links
  - [ASAP Sports](http://www.asapsports.com/), the sports interview aggregation site
  - [Kaggle Kernel](https://www.kaggle.com/dtamming/starter-kernel-nhl-interviews), published alongside my dataset
-##### Technologies Used
- - 
+##### Libraries Used
+ - scikit-learn, afinn, nltk, seaborn, matplotlib, numpy, pandas
  
 ## Data Collection and Cleaning
 ### National Hockey League Interview Transcripts
@@ -76,8 +76,8 @@ The website is formatted as sport -> year -> date -> interview page. BeautifulSo
 ##### Relevant Links
  - [ASAP Sports](http://www.asapsports.com/), the sports interview aggregation site
  - [Project GitHub repository](https://github.com/danitamm/interview-analysis)
-##### Technologies Used
- - BeautifulSoup
+##### Libaries Used
+ - beautifulsoup, pandas, nltk
 
 ### Medical Mask Donation Hubs
 ##### Product
@@ -85,8 +85,8 @@ A webscraping script that creates a csv file with columns for each entry and eac
 ##### Relevant Links
  - [Aggregation website](https://findthemasks.com/give.html)
  - [Project GitHub repository](https://github.com/danitamm/webscrape-mask-donation)
-##### Technologies Used
- - 
+##### Libraries Used
+ - beautifulsoup, selenium, numpy, pandas
 
 ## Python Programming Projects
 ### Web Browser Activity Tracker
@@ -94,21 +94,33 @@ A webscraping script that creates a csv file with columns for each entry and eac
 A command line program that tracks daily Firefox browser use, saving the information to a json file. An accompanying program reads the saved json files and organizes it into a Pandas dataframe. It currently plots a bar graph of the use metric per website, but can be used to analyze the data in any desired way. 
 ##### Data
 As Firefox runs it stores the current session's information a lz4 compressed json file. The file is updated roughly every 5 seconds, allowing the program to closely track internet use.
+##### Libaries Used
+ - numpy, pandas, seaborn, matplotlib
 
 ### Motion Detection
 ##### Product
 A security camera that begins recording video once motion is detected. Used to investigate my housemates' suspicions that a cat has been sneaking into our house in the early morning via our front door mail slot (the results are inconclusive).
 ##### Approach
 Motion is detected by background subtraction, in which the difference between each consecutive frame is calculated and studied. The frames are converted to grayscale, blurred with a Gaussian filter, and the element-wise absolute difference between frames is computed. The threshold is applied to the result to map each value to 0 or 255. The resultant image is dilated for display purposes. When motion is detected for 5 consecutive frames, it begins saving the video feeds. These are saved until 30 seconds have passed without any movement. The videos are saved to timestamped folders, and the camera feed video is annotated with the time and the status (whether motion is detected at each given moment). 
+##### Libraries Used
+ - opencv, numpy
 
-## Blog Posts
+## Blogging
 Medium posts explaining elements of the above projects. 
 1. [NHL Player Chatbot](https://medium.com/analytics-vidhya/nhl-player-chatbot-5c882e330fb7) was selected by Medium curators for distribution in the site's AI and Machine Learning sections. Published on Analytics Vidhya's Medium page.
 2. [A Quantitative Study of NHL Interviews](https://medium.com/analytics-vidhya/nhl-player-chatbot-5c882e330fb7) was published on Analytics Vidhya's Medium page.
 
 ## Honorable Mentions
-### Kaggle House Prices
-### Titanic Classification
+Data wrangling, feature engineering, and model finetuning with two classic Kaggle datasets. As of March 30, 2020, the resultant models achieved results in the following percentiles of the competitions: 
+#### Kaggle House Prices
+ - 21st percentile (first of two submissions)
+ - [notebook Kaggle link](https://www.kaggle.com/dtamming/house-prices)
+ - [GitHub repository](https://github.com/danitamm/house-prices)
+#### Titanic Classification
+ - 18th percentile (first and only submission)
+ - [notebook Kaggle link](https://www.kaggle.com/dtamming/titanic-classification)
+ - [GitHub repository](https://github.com/danitamm/titanic-classification)
+
 
 ## Welcome to GitHub Pages
 
