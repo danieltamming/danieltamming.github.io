@@ -21,6 +21,7 @@ A unidirectional recurrent neural network is trained on the interview transcript
  - [Facebook Messenger link](m.me/102447081166159) to interact with the bot
  - [Bot training GitHub repository](https://github.com/danitamm/hockey-bot)
  - [Bot Heroku deployment GitHub repository](https://github.com/danitamm/HockeyBotProduction)
+
 ##### Libraries Used
  - pytorch
 
@@ -35,6 +36,7 @@ By constructing a graphical representation of the 9155 stops and 213 routes, we 
 ##### Relevant Links
  - [Toronto Open Data](http://opendata.toronto.ca)
  - [Project GitHub repository](https://github.com/danitamm/mapping)
+
 ##### Libraries Used
  - networkx, pandas, numpy
  
@@ -50,6 +52,7 @@ The Boston Housing dataset contains medians, means, and proportions of various a
 After validating linear regressions' assumptios, we construct confidence intervals and test hypotheses regarding predictive variables' relationships with the target. 
 ##### Relevant Links
  - [GitHub repository](https://github.com/danitamm/boston-housing-linear-regression)
+
 ##### Libaries Used
  - scipy, seaborn, matplotlib, pandas, numpy
 
@@ -66,6 +69,7 @@ Sentiment is classified using the Afinn sentiment lexicon, where each word is as
 ##### Relevant Links
  - [ASAP Sports](http://www.asapsports.com/), the sports interview aggregation site
  - [Kaggle Kernel](https://www.kaggle.com/dtamming/starter-kernel-nhl-interviews), published alongside my dataset
+
 ##### Libraries Used
  - scikit-learn, afinn, nltk, seaborn, matplotlib, numpy, pandas
  
@@ -78,6 +82,7 @@ The website is formatted as sport -> year -> date -> interview page. BeautifulSo
 ##### Relevant Links
  - [ASAP Sports](http://www.asapsports.com/), the sports interview aggregation site
  - [Project GitHub repository](https://github.com/danitamm/interview-analysis)
+
 ##### Libaries Used
  - beautifulsoup, pandas, nltk
 
@@ -87,6 +92,7 @@ A webscraping script that creates a csv file with columns for each entry and eac
 ##### Relevant Links
  - [Aggregation website](https://findthemasks.com/give.html)
  - [Project GitHub repository](https://github.com/danitamm/webscrape-mask-donation)
+
 ##### Libraries Used
  - beautifulsoup, selenium, numpy, pandas
 
@@ -118,6 +124,7 @@ Data wrangling, feature engineering, and model finetuning with two classic Kaggl
  - 21st percentile (first of two submissions)
  - [notebook Kaggle link](https://www.kaggle.com/dtamming/house-prices)
  - [GitHub repository](https://github.com/danitamm/house-prices)
+
 #### Titanic Classification
  - 18th percentile (first and only submission)
  - [notebook Kaggle link](https://www.kaggle.com/dtamming/titanic-classification)
