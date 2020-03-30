@@ -1,4 +1,11 @@
-## Master's Research (In Progress)
+## University of Waterloo Master's Thesis (In Progress)
+ - Research and develop synthetic data generation techniques that provide multi-percentage point accuracy increases to state-of-the-art text classification models
+ - Design and evaluate methods that combat overfitting by increasing the size and richness of NLP datasets
+ - Develop modular code that tests 48 combinations of datasets, models, techniques, and applications
+##### Relevant Links (Coming Soon)
+ - Private GitHub repo will be made public upon completion
+##### Libraries Used
+ - Git, PyTorch, nltk, spacy, HuggingFace Transformers
 
 ## Machine Learning - Model Training and Deployment
 ### HockeyBot, The Facebook Messenger Chatbot
@@ -12,8 +19,8 @@ A unidirectional recurrent neural network is trained on the interview transcript
  - [Facebook Messenger link](m.me/102447081166159) to interact with the bot
  - [Bot training GitHub repository](https://github.com/danitamm/hockey-bot)
  - [Bot Heroku deployment GitHub repository](https://github.com/danitamm/HockeyBotProduction)
-##### Technologies Used
- - 
+##### Libraries Used
+ - PyTorch
 
 ## Data Exploration and Modeling
 ### Public Transit Travel Optimization for Greater Toronto Area
