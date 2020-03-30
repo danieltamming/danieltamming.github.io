@@ -18,7 +18,7 @@ See "National Hockey League Interview Transcripts" in the Data Collection and Cl
 #### Approach
 A unidirectional recurrent neural network is trained on the interview transcript data. The training set is comprised of each 6 contiguous words/symbols, where the first 5 are the input example and the 6th is the label. Having learned a probability distribution over the possible choices for the next word/token, this distribution is sampled to generate new text. This model is then deployed to a Heroku server that responsds to all messages at any time. 
 #### Relevant Links
- - [Facebook Messenger link](m.me/102447081166159) to interact with the bot
+ - [Facebook Messenger link](https://www.messenger.com/t/102447081166159) to interact with the bot
  - [Bot training GitHub repository](https://github.com/danitamm/hockey-bot)
  - [Bot Heroku deployment GitHub repository](https://github.com/danitamm/HockeyBotProduction)
 
