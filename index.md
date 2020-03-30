@@ -2,8 +2,10 @@
  - Research and develop synthetic data generation techniques that provide multi-percentage point accuracy increases to state-of-the-art text classification models
  - Design and evaluate methods that combat overfitting by increasing the size and richness of NLP datasets
  - Develop modular code that tests 48 combinations of datasets, models, techniques, and applications
+
 ##### Relevant Links (Coming Soon)
  - GitHub repo will be made public upon completion
+
 ##### Libraries Used
  - pytorch, nltk, spacy, huggingface transformers, gensim
 
