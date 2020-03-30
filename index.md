@@ -105,7 +105,7 @@ As Firefox runs it stores the current session's information a lz4 compressed jso
 #### Libaries Used
  - numpy, pandas, seaborn, matplotlib
 
-## Motion Detection
+## Motion Activated Camera
 #### Product
 A security camera that begins recording video once motion is detected. Used to investigate my housemates' suspicions that a cat has been sneaking into our house in the early morning via our front door mail slot (the results are inconclusive).
 #### Approach
