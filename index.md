@@ -33,8 +33,8 @@ By constructing a graphical representation of the 9155 stops and 213 routes, we 
 ##### Findings
 1. We can say with 95% confident that for a fixed percentage of the population that is lower status, an increase of 1 in the average number of rooms per house effects between a 5.44 and 13.20 percent increase in the median house value.
 2. We can say with 95% confident that for a fixed average number of rooms per house, an increase of 1 percent in the percentage of the population that is lower status effects between a 0.47 and 0.56 percentage decrease in the median house value.
-3. Even given the effects due to the percentage of the population that is lower status, the average number of rooms has a statistically significant effect on log of the median house value.
-4. Even given the effects due to the average number of rooms, the logarithm of the percentage of the population that is lower status has a statistically significant effect on log of the median house value.
+3. Even given the effects due to the percentage of the population that is lower status, the average number of rooms has a statistically significant effect on the log of the median house value.
+4. Even given the effects due to the average number of rooms, the logarithm of the percentage of the population that is lower status has a statistically significant effect on the log of the median house value.
 ##### Data
 The Boston Housing dataset contains medians, means, and proportions of various attributes of 506 different segments of the city of Boston. We use the median house value as the target variable.
 ##### Approach
