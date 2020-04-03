@@ -1,7 +1,7 @@
 # Daniel Tamming's Data Science Portfolio
 This portfolio is a collection of technical projects that I've worked on in the last couple years. Project use cases range from the practical (a transit routing algorithm, a traffic congestion predictor) to the entertaining (a Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talks like a hockey player in a post-game interview), and everything in between. 
 
-I've organized this page into the following project types:
+I've organized this page into the following sections:
 1. Research
 2. Machine Learning
 3. Data Exploration and Modeling
@@ -155,8 +155,14 @@ Motion is detected by background subtraction, in which the difference between ea
 
 # Blogging
 Medium posts explaining elements of the above projects. 
-1. [NHL Player Chatbot](https://medium.com/analytics-vidhya/nhl-player-chatbot-5c882e330fb7) was selected by Medium curators for distribution in the site's AI and Machine Learning sections. Published on Analytics Vidhya's Medium page.
-2. [A Quantitative Study of NHL Interviews](https://medium.com/analytics-vidhya/nhl-player-chatbot-5c882e330fb7) was published on Analytics Vidhya's Medium page.
+### NHL Player Chatbot
+ - Selected by Medium curators for distribution in the site's AI and Machine Learning sections
+ - Published on Analytics Vidhya's Medium page
+ - [Medium link](https://medium.com/analytics-vidhya/nhl-player-chatbot-5c882e330fb7)
+
+### A Quantitative Study of NHL Interviews
+ - Published on Analytics Vidhya's Medium page
+ - [Medium link](https://medium.com/analytics-vidhya/nhl-player-chatbot-5c882e330fb7)
 
 # Honorable Mentions
 Data wrangling, feature engineering, and model finetuning with two classic Kaggle datasets. As of March 30, 2020, the resultant models achieved results in the following percentiles of the competitions: 
@@ -169,7 +175,7 @@ Data wrangling, feature engineering, and model finetuning with two classic Kaggl
  - [notebook Kaggle link](https://www.kaggle.com/dtamming/titanic-classification)
 
 # Recommended Links
-Some things that I find interesting and/or thought-provoking: 
+If you'll forgive the deviation from the original purpose of this webpage, here are some things that I find interesting and/or thought-provoking: 
  - Alan Perlis' ["Epigrams in Programming"](https://www.cs.yale.edu/homes/perlis-alan/quotes.html). Numbers 7 and 16 are my personal favorites.
  - [FiveThirtyEight](https://fivethirtyeight.com/), and its Founder Nate Silver [in conversation](https://www.youtube.com/watch?time_continue=45&v=_tMA7F4FA94&feature=emb_logo) with the polymath academic Tyler Cowen
  - [Datasets Subreddit](https://www.reddit.com/r/datasets/)
