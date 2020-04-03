@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="/assets/css/style.css">
+
 # Welcome!
 I hope you enjoy this summary of the technical projects that I've worked on in my spare time. 
 
