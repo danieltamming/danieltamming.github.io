@@ -10,7 +10,7 @@ I've organized this page into the following project types:
 6. Python Programming Projects
 7. Blogging
 8. Honorable Mentions
-9. Miscellaneous
+9. Recommended Links
 
 If you'd like to reach out or have a closer look at my work:
 - [LinkedIn](https://www.linkedin.com/in/daniel-tamming/)
@@ -168,9 +168,9 @@ Data wrangling, feature engineering, and model finetuning with two classic Kaggl
  - 18th percentile (first and only submission)
  - [notebook Kaggle link](https://www.kaggle.com/dtamming/titanic-classification)
 
-# Miscellaneous
-Links that I find interesting and/or thought-provoking. 
+# Recommended Links
+Some things that I find interesting and/or thought-provoking: 
  - Alan Perlis' ["Epigrams in Programming"](https://www.cs.yale.edu/homes/perlis-alan/quotes.html). Numbers 7 and 16 are my personal favorite.
+ - [FiveThirtyEight](https://fivethirtyeight.com/), and its Founder Nate Silver [in conversation](https://www.youtube.com/watch?time_continue=45&v=_tMA7F4FA94&feature=emb_logo) with the polymath academic Tyler Cowen
  - [Datasets Subreddit](https://www.reddit.com/r/datasets/)
  - [Our World In Data](https://ourworldindata.org/)
- - [FiveThirtyEight](https://fivethirtyeight.com/)
