@@ -1,9 +1,5 @@
-<link rel="stylesheet" href="/assets/css/style.css">
-
-# Welcome!
-I hope you enjoy this summary of the technical projects that I've worked on in my spare time. 
-
-Project use cases range from the practical (a transit routing algorithm, a traffic congestion predictor) to the entertaining (a Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talks like a hockey player in a post-game interview). What each project has in common is that it served as an opportunity to learn a new technology or methodology while tackling an interesting problem. 
+# Daniel Tamming's Data Science Portfolio
+This portfolio is a collection of technical projects that I've worked on in the last couple years. Project use cases range from the practical (a transit routing algorithm, a traffic congestion predictor) to the entertaining (a Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talks like a hockey player in a post-game interview), and everything in between. 
 
 I've organized this page into the following project types:
 1. Research
@@ -14,6 +10,7 @@ I've organized this page into the following project types:
 6. Python Programming Projects
 7. Blogging
 8. Honorable Mentions
+9. Miscellaneous
 
 If you'd like to reach out or have a closer look at my work:
 - [LinkedIn](https://www.linkedin.com/in/daniel-tamming/)
@@ -170,3 +167,10 @@ Data wrangling, feature engineering, and model finetuning with two classic Kaggl
 ### Titanic Classification
  - 18th percentile (first and only submission)
  - [notebook Kaggle link](https://www.kaggle.com/dtamming/titanic-classification)
+
+# Miscellaneous
+Links that I find interesting and/or thought-provoking. 
+ - Alan Perlis' ["Epigrams in Programming"](https://www.cs.yale.edu/homes/perlis-alan/quotes.html). Numbers 7 and 16 are my personal favorite.
+ - [Datasets Subreddit](https://www.reddit.com/r/datasets/)
+ - [Our World In Data](https://ourworldindata.org/)
+ - [FiveThirtyEight](https://fivethirtyeight.com/)
