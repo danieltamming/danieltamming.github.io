@@ -131,7 +131,7 @@ A webscraping script that creates a csv file with columns for each entry and eac
 #### Data
 The Boston Housing dataset contains medians, means, and proportions of various attributes of 506 different segments of the city of Boston. We use the median house value as the target variable.
 #### Approach
-After validating linear regressions' assumptions, we construct confidence intervals and test hypotheses regarding predictive variables' relationships with the target. 
+After validating linear regression's assumptions we construct confidence intervals and test hypotheses regarding the predictive variables' relationships with the target. 
 #### Relevant Links
  - [GitHub repository](https://github.com/danitamm/boston-housing-linear-regression)
 
