@@ -1,4 +1,23 @@
-# University of Waterloo Master's Thesis (In Progress)
+# Welcome!
+Project use cases range from the practical (a transit routing algorithm, a traffic congestion predictor) to the entertaining (a Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talks like a hockey player in a post-game interview). What they all have in common is they each served as an opportunity to learn a new technology or methodology while tackling an interesting problem. 
+
+I've organized this page into the following project types:
+1. Research
+2. Machine Learning
+3. Data Exploration and Modeling
+4. Data Collection and Cleaning
+5. Statistics
+6. Python Programming Projects
+7. Blogging
+8. Honorable Mentions
+
+If you'd like to have a closer look at my code or you'd like to reach out:
+- [LinkedIn](https://www.linkedin.com/in/daniel-tamming/)
+- [GitHub](https://github.com/danitamm)
+- [Kaggle](https://www.kaggle.com/dtamming)
+
+# Research
+## University of Waterloo Master's Thesis (In Progress)
  - Research and develop synthetic data generation techniques that provide multi-percentage point accuracy increases to state-of-the-art text classification models
  - Design and evaluate methods that combat overfitting by increasing the size and richness of NLP datasets
  - Develop modular code that tests 48 combinations of datasets, models, techniques, and applications
@@ -12,7 +31,7 @@
 # Machine Learning - Model Training and Deployment
 ## HockeyBot, The Facebook Messenger Chatbot
 #### Product
-Upon receiving a message that could plausibly begin a hockey player's interview response (e.g. "Well you know"), it responds with a 5 setence continuation of that message. Active for over 4 months, it has maintained a 100% response rate within 30 seconds of receiving a message.
+Upon receiving a message that could plausibly begin a hockey player's interview response (e.g. "Well you know"), the chatbot responds with a 5 setence continuation of that message. Active for over 4 months, it has maintained a 100% response rate within 30 seconds of receiving a message.
 #### Data
 See "National Hockey League Interview Transcripts" in the Data Collection and Cleaning section of this page.
 #### Approach
@@ -57,22 +76,6 @@ By constructing a graphical representation of the 9155 stops and 213 routes, we 
 
 #### Libraries Used
  - networkx, pandas, numpy
- 
-## Inference On The Boston Housing Dataset Using Linear Regression
-#### Findings
-1. We can say with 95% confident that for a fixed percentage of the population that is lower status, an increase of 1 in the average number of rooms per house effects between a 5.44 and 13.20 percent increase in the median house value.
-2. We can say with 95% confident that for a fixed average number of rooms per house, an increase of 1 percent in the percentage of the population that is lower status effects between a 0.47 and 0.56 percentage decrease in the median house value.
-3. Even given the effects due to the percentage of the population that is lower status, the average number of rooms has a statistically significant effect on the log of the median house value.
-4. Even given the effects due to the average number of rooms, the logarithm of the percentage of the population that is lower status has a statistically significant effect on the log of the median house value.
-#### Data
-The Boston Housing dataset contains medians, means, and proportions of various attributes of 506 different segments of the city of Boston. We use the median house value as the target variable.
-#### Approach
-After validating linear regressions' assumptios, we construct confidence intervals and test hypotheses regarding predictive variables' relationships with the target. 
-#### Relevant Links
- - [GitHub repository](https://github.com/danitamm/boston-housing-linear-regression)
-
-#### Libaries Used
- - scipy, seaborn, matplotlib, pandas, numpy
 
 ## Contrasting Hockey Players' and Coaches' Speech Patterns
 #### Findings and Product
@@ -113,6 +116,23 @@ A webscraping script that creates a csv file with columns for each entry and eac
 
 #### Libraries Used
  - beautifulsoup, selenium, numpy, pandas
+
+# Statistics
+## Inference On The Boston Housing Dataset Using Linear Regression
+#### Findings
+1. We can say with 95% confident that for a fixed percentage of the population that is lower status, an increase of 1 in the average number of rooms per house effects between a 5.44 and 13.20 percent increase in the median house value.
+2. We can say with 95% confident that for a fixed average number of rooms per house, an increase of 1 percent in the percentage of the population that is lower status effects between a 0.47 and 0.56 percentage decrease in the median house value.
+3. Even given the effects due to the percentage of the population that is lower status, the average number of rooms has a statistically significant effect on the log of the median house value.
+4. Even given the effects due to the average number of rooms, the logarithm of the percentage of the population that is lower status has a statistically significant effect on the log of the median house value.
+#### Data
+The Boston Housing dataset contains medians, means, and proportions of various attributes of 506 different segments of the city of Boston. We use the median house value as the target variable.
+#### Approach
+After validating linear regressions' assumptions, we construct confidence intervals and test hypotheses regarding predictive variables' relationships with the target. 
+#### Relevant Links
+ - [GitHub repository](https://github.com/danitamm/boston-housing-linear-regression)
+
+#### Libaries Used
+ - scipy, seaborn, matplotlib, pandas, numpy
 
 # Python Programming Projects
 ## Web Browser Activity Tracker
