@@ -1,5 +1,5 @@
 # Daniel Tamming's Data Science Portfolio
-This site is a collection of technical projects that I've worked on in the last couple years. Project use cases range from the practical (a transit routing algorithm, a traffic congestion predictor) to the entertaining (a Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talk like a hockey player in a post-game interview), and everything in between. 
+This webpage contains a collection of technical projects that I've worked on in the last couple years. Project use cases range from the practical (a transit routing algorithm, a traffic congestion predictor) to the entertaining (a Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talk like a hockey player in a post-game interview), and everything in between. 
 
 I've organized this page into the following sections:
 1. Research
