@@ -85,6 +85,7 @@ By constructing a graphical representation of the 9155 stops and 213 routes, we 
 2. The difference between coaches' and players' average selfishness is not statistically significant. 
 3. The variance in both sentiment and selfishness is greater for players than it is for coaches.
 4. A model classifying speech as from a coach or from a player is trained and achieves an F1 score of 0.969 on the test set.  
+
 #### Data
 See "National Hockey League Interview Transcripts" in the Data Collection and Cleaning section of this page.
 #### Approach
@@ -126,6 +127,7 @@ A webscraping script that creates a csv file with columns for each entry and eac
 2. We can say with 95% confident that for a fixed average number of rooms per house, an increase of 1 percent in the percentage of the population that is lower status effects between a 0.47 and 0.56 percentage decrease in the median house value.
 3. Even given the effects due to the percentage of the population that is lower status, the average number of rooms has a statistically significant effect on the log of the median house value.
 4. Even given the effects due to the average number of rooms, the logarithm of the percentage of the population that is lower status has a statistically significant effect on the log of the median house value.
+
 #### Data
 The Boston Housing dataset contains medians, means, and proportions of various attributes of 506 different segments of the city of Boston. We use the median house value as the target variable.
 #### Approach
