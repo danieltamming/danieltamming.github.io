@@ -65,7 +65,7 @@ Weakly predictive numerical variables such as hour and coordinates are used to e
  - Catboost, scikit-learn, seaborn, pandas, numpy
 
 
-## Public Transit Travel Optimization for Greater Toronto Area
+## Public Transit Travel Optimization For The Greater Toronto Area
 #### Product 
 A program that calculates within 10 seconds the best place for a pedestrian to meet a driver. The command line interface finds the optimal meeting location for any valid query (anywhere within range of Toronto public transit).
 #### Data
