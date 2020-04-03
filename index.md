@@ -179,6 +179,6 @@ Data wrangling, feature engineering, and model finetuning with two classic Kaggl
 # Recommended Links
 If you'll forgive the deviation from the stated purpose of this page, here are some things that I find interesting and/or thought-provoking: 
  - Alan Perlis' ["Epigrams in Programming"](https://www.cs.yale.edu/homes/perlis-alan/quotes.html). Numbers 7 and 16 are my personal favorites.
- - [FiveThirtyEight](https://fivethirtyeight.com/), and its Founder Nate Silver [in conversation](https://www.youtube.com/watch?time_continue=45&v=_tMA7F4FA94&feature=emb_logo) with the polymath academic Tyler Cowen
+ - [FiveThirtyEight](https://fivethirtyeight.com/) and its Founder, Nate Silver, [in conversation](https://www.youtube.com/watch?time_continue=45&v=_tMA7F4FA94&feature=emb_logo) with the polymath academic Tyler Cowen
  - [Datasets Subreddit](https://www.reddit.com/r/datasets/)
  - [Our World In Data](https://ourworldindata.org/)
