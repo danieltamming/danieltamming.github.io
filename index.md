@@ -1,5 +1,5 @@
 # Welcome!
-This website summarizes my research and the technical projects that I've worked on in my spare time. 
+I hope you enjoy this summary of the technical projects that I've worked on in my spare time. 
 
 Project use cases range from the practical (a transit routing algorithm, a traffic congestion predictor) to the entertaining (a Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talks like a hockey player in a post-game interview). What each project has in common is that it served as an opportunity to learn a new technology or methodology while tackling an interesting problem. 
 
