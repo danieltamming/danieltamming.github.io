@@ -30,7 +30,7 @@ If you'd like to reach out or have a closer look at my work:
 #### Libraries Used
  - pytorch, nltk, spacy, huggingface transformers, gensim
 
-# Machine Learning - Model Training and Deployment
+# Machine Learning
 ## HockeyBot, The Facebook Messenger Chatbot
 #### Product
 Upon receiving a message that could plausibly begin a hockey player's interview response (e.g. "Well you know"), the chatbot responds with a 5 setence continuation of that message. Active for over 4 months, it has maintained a 100% response rate within 30 seconds of receiving a message.
