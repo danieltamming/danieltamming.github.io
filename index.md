@@ -1,5 +1,7 @@
 # Welcome!
-Project use cases range from the practical (a transit routing algorithm, a traffic congestion predictor) to the entertaining (a Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talks like a hockey player in a post-game interview). What they all have in common is they each served as an opportunity to learn a new technology or methodology while tackling an interesting problem. 
+This website summarizes my research and the technical projects that I've worked on in my spare time. 
+
+Project use cases range from the practical (a transit routing algorithm, a traffic congestion predictor) to the entertaining (a Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talks like a hockey player in a post-game interview). What each project has in common is that it served as an opportunity to learn a new technology or methodology while tackling an interesting problem. 
 
 I've organized this page into the following project types:
 1. Research
@@ -11,10 +13,11 @@ I've organized this page into the following project types:
 7. Blogging
 8. Honorable Mentions
 
-If you'd like to have a closer look at my code or you'd like to reach out:
+If you'd like to reach out or have a closer look at my work:
 - [LinkedIn](https://www.linkedin.com/in/daniel-tamming/)
 - [GitHub](https://github.com/danitamm)
 - [Kaggle](https://www.kaggle.com/dtamming)
+- [Medium](https://medium.com/@danieltamming)
 
 # Research
 ## University of Waterloo Master's Thesis (In Progress)
