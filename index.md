@@ -26,9 +26,27 @@ A unidirectional recurrent neural network is trained on the interview transcript
  - pytorch
 
 # Data Exploration and Modeling
+## Traffic Congestion Prediction (Geotab Challenge)
+#### Product
+A program that predicts the traffic congestion at more than 10,000 intersections in 4 major American cities. It is estimated that the model would achieve results in the 25th percentile of the Kaggle leaderboard. Please see the [modelling notebook](https://www.kaggle.com/dtamming/geotab-modelling/) for an explanation of this estimate. 
+#### Data
+The 20th, 50th, and 80th percentiles of two traffic congestion metrics: the total time spent waiting at an intersection and the distance between center of the intersection and the place at which the vehicle first stops. These metrics are aggregated by city, intersection, intersection entrance and exit heading, month, hour of the day, and several other variables. 
+#### Goal
+Given a training set with all variables and a test set with only the aggregation variables, predict each of the six metric-percentile pairs on the test set.
+#### Approach
+Weakly predictive numerical variables such as hour and coordinates are used to engineer strongly predictive variables such as "time to rush hour" and "distance from city center". It is observed that dummy encoding of the over 10,000 unique intersections would not fit into memory. This important feature is kept in the training set by using a [gradient boosted trees library](https://catboost.ai/) that has a novel [encoding method](https://catboost.ai/docs/concepts/algorithm-main-stages_cat-to-numberic.html) for high-cardinality variables. Hyperparameter tuning and early stopping are used to ensure that the model fits the data well.
+#### Relevant Links
+ - [Data Exploration Notebook](https://www.kaggle.com/dtamming/geotab-exploration/)
+ - [Modelling Notebook](https://www.kaggle.com/dtamming/geotab-modelling/)
+ - [Dataset](https://www.kaggle.com/c/bigquery-geotab-intersection-congestion/data)
+
+#### Libraries Used
+ - Catboost, scikit-learn, seaborn, pandas, numpy
+
+
 ## Public Transit Travel Optimization for Greater Toronto Area
 #### Product 
-A program that calculates within 10 seconds the best place for a pedestrian to meet a driver. The command line interface finds the optimal meeting location for any valid query (anywhere within range of Toronto public transit)4.
+A program that calculates within 10 seconds the best place for a pedestrian to meet a driver. The command line interface finds the optimal meeting location for any valid query (anywhere within range of Toronto public transit).
 #### Data
 Extracted relevant data from a set of 7 csv files that is made publicly available on the Toronto OpenData website. 
 #### Approach
@@ -123,9 +141,7 @@ Data wrangling, feature engineering, and model finetuning with two classic Kaggl
 ### Kaggle House Prices
  - 21st percentile (first of two submissions)
  - [notebook Kaggle link](https://www.kaggle.com/dtamming/house-prices)
- - [GitHub repository](https://github.com/danitamm/house-prices)
 
 ### Titanic Classification
  - 18th percentile (first and only submission)
  - [notebook Kaggle link](https://www.kaggle.com/dtamming/titanic-classification)
- - [GitHub repository](https://github.com/danitamm/titanic-classification)
