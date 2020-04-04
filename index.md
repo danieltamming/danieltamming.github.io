@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://danitamm.github.io/css/style.css">
+
 # Daniel Tamming's Data Science Portfolio
 This website summarizes several of the technical projects that I've worked on in the last couple of years. Project use cases range from the practical (a transit routing algorithm, a traffic congestion predictor) to the entertaining (a Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talk like a hockey player in a post-game interview), and everything in between. 
 
