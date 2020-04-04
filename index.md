@@ -21,7 +21,7 @@ If you'd like to reach out or have a closer look at my work:
 - [Medium](https://medium.com/@danieltamming)
 
 # Research
-## Artificial Data for Natural Language Processing Tasks
+## Artificial Data Generation for Natural Language Processing Tasks
 #### University of Waterloo Master's Thesis (In Progress)
 What follows is a purposefully vague description of my ongoing research.  
 
