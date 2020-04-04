@@ -21,7 +21,7 @@ If you'd like to reach out or have a closer look at my work:
 - [Medium](https://medium.com/@danieltamming)
 
 # Research
-## University of Waterloo Master's Thesis (In Progress)
+## Data Augmentation for Natural Language Processing - University of Waterloo Master's Thesis (In Progress)
 What follows is a purposefully vague description of my ongoing research.  
 
 A detailed study of various synthetic data generation techniques that provide multi-percentage point accuracy increases to state-of-the-art text classification models. The data generation methods range from rules-based to deep-learning-based approaches. 
