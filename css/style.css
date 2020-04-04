@@ -11,8 +11,8 @@
 
 .main-content {
   max-width: 75%;
-}
-
+  
+  
 h1
   {
     color: #000000;
@@ -41,3 +41,4 @@ h5
   {
     color: #000000;
   }
+}
