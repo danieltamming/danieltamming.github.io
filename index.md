@@ -20,9 +20,9 @@ If you'd like to reach out or have a closer look at my work:
 
 # Research
 ## University of Waterloo Master's Thesis (In Progress)
- - Research and develop synthetic data generation techniques that provide multi-percentage point accuracy increases to state-of-the-art text classification models
- - Design and evaluate methods that combat overfitting by increasing the size and richness of NLP datasets
- - Develop modular code that tests 48 combinations of datasets, models, techniques, and applications
+What follows is a purposefully vague description of my ongoing research.  
+
+A detailed study of various synthetic data generation techniques that provide multi-percentage point accuracy increases to state-of-the-art text classification models. The data generation methods range from rules-based to deep-learning-based approaches. 
 
 #### Relevant Links (Coming Soon)
  - GitHub repo will be made public upon completion
