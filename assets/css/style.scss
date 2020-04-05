@@ -17,7 +17,8 @@ $body-link-color: #00233D;
 
 .main-content {
   max-width: 75%;
-// }
+}
+
 h1 { counter-reset: h2counter; }
 h2 { counter-reset: h3counter; }
 h3 { counter-reset: h4counter; }
@@ -33,8 +34,6 @@ h2:before {
 h3:before {
     counter-increment: h3counter;
     content: counter(h2counter) "." counter(h3counter) ".\0000a0\0000a0";
-}
-  
 }
 
 // h4:before {
