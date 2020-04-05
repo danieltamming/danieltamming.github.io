@@ -17,7 +17,7 @@ $body-link-color: #00233D;
 
 .main-content {
   max-width: 75%;
-// } if anything goes wrong uncomment this
+} //if anything goes wrong uncomment this
 
 body { counter-reset: h2counter; }
 h2 { counter-reset: h3counter; }
@@ -31,6 +31,4 @@ h2:before {
 h3:before {
     counter-increment: h3counter;
     content: counter(h2counter) "." counter(h3counter) ".\0000a0\0000a0";
-}
-
 }
