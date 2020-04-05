@@ -4,7 +4,7 @@
 This website summarizes several of the technical projects that I've worked on in the last couple of years. Projects range from practical (a transit routing algorithm, a traffic congestion predictor) to entertaining (a Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talks like a hockey player in a post-game interview), and everything in between. 
 
 Table of Contents:
-1. Research
+1. [Research](#research)
 2. Machine Learning
 3. Data Exploration and Modeling
 4. Data Collection and Cleaning
