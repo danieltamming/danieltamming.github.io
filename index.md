@@ -50,7 +50,7 @@ A unidirectional recurrent neural network is trained on the interview transcript
 ## Traffic Congestion Prediction (Geotab Challenge)
 ### Product
 A program that predicts the traffic congestion at more than 10,000 intersections in 4 major American cities. It is estimated that the model would achieve results in the 25th percentile of the Kaggle leaderboard. Please see the [modelling notebook](https://www.kaggle.com/dtamming/geotab-modelling/) for an explanation of this estimate. 
-#### Data
+### Data
 The 20th, 50th, and 80th percentiles of two traffic congestion metrics: 
 
 1. The total time spent waiting at an intersection 
