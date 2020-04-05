@@ -55,8 +55,10 @@ A unidirectional recurrent neural network is trained on the interview transcript
 A program that predicts the traffic congestion at more than 10,000 intersections in 4 major American cities. It is estimated that the model would achieve results in the 25th percentile of the Kaggle leaderboard. Please see the [modelling notebook](https://www.kaggle.com/dtamming/geotab-modelling/) for an explanation of this estimate. 
 #### Data
 The 20th, 50th, and 80th percentiles of two traffic congestion metrics: 
+
 1. The total time spent waiting at an intersection 
 2. The distance between the center of the intersection and the place at which the vehicle first stops. 
+
 These metrics are aggregated by city, intersection, month, hour of the day, entrance and exit orientation, and several other variables. 
 #### Goal
 Given a training set with all variables and a test set with only the aggregation variables, predict each of the six metric-percentile pairs on the test set.
