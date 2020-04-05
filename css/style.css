@@ -23,7 +23,7 @@ h6 {}
 
 h1:before {
     counter-increment: h1counter;
-    content: counter(h1counter) ".\0000a0\0000a0";
+    content: counter(h1counter) "\0000a0\0000a0";
 }
 
 h2:before {
