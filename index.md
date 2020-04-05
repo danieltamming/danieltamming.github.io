@@ -5,14 +5,14 @@ This website summarizes several of the technical projects that I've worked on in
 
 Table of Contents:
 1. [Research](#research)
-2. Machine Learning
-3. Data Exploration and Modeling
-4. Data Collection and Cleaning
-5. Statistics
-6. Python Programming Projects
-7. Blogging
-8. Honorable Mentions
-9. Recommended Links
+2. [Machine Learning](#machine-learning)
+3. [Data Exploration and Modeling](#data-exploration-and-modeling)
+4. [Data Collection and Cleaning](#data-collection-and-cleaning)
+5. [Statistics](#statistics)
+6. [Python Programing Projects](#python-programming-projects)
+7. [Blogging](#blogging)
+8. [Honorable Mentions](#honorable-mentions)
+9. [Recommended Links](#recommended-links)
 
 Contact:
 - [LinkedIn](https://www.linkedin.com/in/daniel-tamming/)
