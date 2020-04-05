@@ -173,7 +173,7 @@ Medium posts explaining elements of the above projects.
  - [Medium link](https://medium.com/analytics-vidhya/nhl-player-chatbot-5c882e330fb7)
 
 # Honorable Mentions
-Data wrangling, feature engineering, and model finetuning with two classic Kaggle datasets. As of March 30, 2020, the resultant models achieved results in the following percentiles of the competitions: 
+Data wrangling, feature engineering, and model fine-tuning with two classic Kaggle datasets. As of March 30, 2020, the resultant models achieved results in the following percentiles of the competitions: 
 ### Kaggle House Prices
  - 21st percentile (first of two submissions)
  - [notebook Kaggle link](https://www.kaggle.com/dtamming/house-prices)
