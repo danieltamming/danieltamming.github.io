@@ -1,9 +1,9 @@
 <link rel="stylesheet" href="https://danitamm.github.io/css/style.css">
 
 # Daniel Tamming's Data Science Portfolio
-This website summarizes several of the technical projects that I've worked on in the last couple of years. Project use cases range from the practical (a transit routing algorithm, a traffic congestion predictor) to the entertaining (a Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talk like a hockey player in a post-game interview), and everything in between. 
+This website summarizes several of the technical projects that I've worked on in the last couple of years. Projects range from practical (a transit routing algorithm, a traffic congestion predictor) to entertaining (a Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talks like a hockey player in a post-game interview), and everything in between. 
 
-I've organized this site into the following sections:
+Table of Contents:
 1. Research
 2. Machine Learning
 3. Data Exploration and Modeling
@@ -14,7 +14,7 @@ I've organized this site into the following sections:
 8. Honorable Mentions
 9. Recommended Links
 
-If you'd like to reach out or have a closer look at my work:
+Contact:
 - [LinkedIn](https://www.linkedin.com/in/daniel-tamming/)
 - [GitHub](https://github.com/danitamm)
 - [Kaggle](https://www.kaggle.com/dtamming)
@@ -36,11 +36,11 @@ A detailed study of various synthetic data generation techniques that provide mu
 # Machine Learning
 ## HockeyBot, The Facebook Messenger Chatbot
 #### Product
-Upon receiving a message that could plausibly begin a hockey player's interview response (e.g. "Well you know"), the chatbot responds with a 5 setence continuation of that message. Active for over 4 months, it has maintained a 100% response rate within 30 seconds of receiving a message.
+Upon receiving a message that could plausibly begin a hockey player's interview response (e.g. "Well you know"), the chatbot responds with a 5 sentence continuation of that message. Active for over 4 months, it has maintained a 100% response rate within 30 seconds of receiving a message.
 #### Data
 See "National Hockey League Interview Transcripts" in the Data Collection and Cleaning section of this page.
 #### Approach
-A unidirectional recurrent neural network is trained on the interview transcript data. The training set is comprised of each 6 contiguous words/symbols, where the first 5 are the input example and the 6th is the label. Having learned a probability distribution over the possible choices for the next word/token, this distribution is sampled to generate new text. This model is then deployed to a Heroku server that responsds to all messages at any time. 
+A unidirectional recurrent neural network is trained on the interview transcript data. Each string of 6 contiguous words forms a training example, where the first 5 are the input and the 6th is the label. Having learned a probability distribution over the possible choices for the next word, this distribution is sampled to generate new text. This model is then deployed to a Heroku server that responds to all messages at any time. 
 #### Relevant Links
  - [Facebook Messenger link](https://www.messenger.com/t/102447081166159) to interact with the bot
  - [Bot training GitHub repository](https://github.com/danitamm/hockey-bot)
@@ -54,18 +54,21 @@ A unidirectional recurrent neural network is trained on the interview transcript
 #### Product
 A program that predicts the traffic congestion at more than 10,000 intersections in 4 major American cities. It is estimated that the model would achieve results in the 25th percentile of the Kaggle leaderboard. Please see the [modelling notebook](https://www.kaggle.com/dtamming/geotab-modelling/) for an explanation of this estimate. 
 #### Data
-The 20th, 50th, and 80th percentiles of two traffic congestion metrics: the total time spent waiting at an intersection and the distance between center of the intersection and the place at which the vehicle first stops. These metrics are aggregated by city, intersection, intersection entrance and exit heading, month, hour of the day, and several other variables. 
+The 20th, 50th, and 80th percentiles of two traffic congestion metrics: 
+1. The total time spent waiting at an intersection 
+2. The distance between the center of the intersection and the place at which the vehicle first stops. 
+These metrics are aggregated by city, intersection, month, hour of the day, entrance and exit orientation, and several other variables. 
 #### Goal
 Given a training set with all variables and a test set with only the aggregation variables, predict each of the six metric-percentile pairs on the test set.
 #### Approach
-Weakly predictive numerical variables such as hour and coordinates are used to engineer strongly predictive variables such as "time to rush hour" and "distance from city center". It is observed that dummy encoding of the over 10,000 unique intersections would not fit into memory. This important feature is kept in the training set by using a [gradient boosted trees library](https://catboost.ai/) that has a novel [encoding method](https://catboost.ai/docs/concepts/algorithm-main-stages_cat-to-numberic.html) for high-cardinality variables. Hyperparameter tuning and early stopping are used to ensure that the model fits the data well.
+Weakly predictive numerical variables such as hour and coordinates are used to engineer strongly predictive variables such as "time to rush hour" and "distance from city center". It is observed that dummy encoding of over 10,000 unique intersections would not fit into memory. This important feature is kept in the training set by using a [gradient boosted trees library](https://catboost.ai/) that has a novel [encoding method](https://catboost.ai/docs/concepts/algorithm-main-stages_cat-to-numberic.html) for high-cardinality variables. Hyperparameter tuning and early stopping are used to ensure that the model fits the data well.
 #### Relevant Links
  - [Data Exploration Notebook](https://www.kaggle.com/dtamming/geotab-exploration/)
  - [Modelling Notebook](https://www.kaggle.com/dtamming/geotab-modelling/)
  - [Dataset](https://www.kaggle.com/c/bigquery-geotab-intersection-congestion/data)
 
 #### Libraries Used
- - Catboost, scikit-learn, seaborn, pandas, numpy
+ - catboost, scikit-learn, seaborn, pandas, numpy
 
 
 ## Public Transit Travel Optimization For The Greater Toronto Area
@@ -115,7 +118,7 @@ The website is formatted as sport -> year -> date -> interview page. BeautifulSo
 
 ## Medical Mask Donation Hubs
 #### Product
-A webscraping script that creates a csv file with columns for each entry and each of the fields on a medical mask donation hub aggreagation website. The fields describe the hub locations and the type of donations they are accepting. The program was completed as part of an [Upwork](https://www.upwork.com/) project proposal. 
+A web scraping script that creates a csv file with rows for each entry and columns for each of the fields on a medical mask donation hub aggreagation website. The fields describe the hub locations and the type of donations they are accepting. The program was completed as part of an [Upwork](https://www.upwork.com/) project proposal. 
 #### Relevant Links
  - [Aggregation website](https://findthemasks.com/give.html)
  - [Project GitHub repository](https://github.com/danitamm/webscrape-mask-donation)
@@ -138,7 +141,7 @@ After validating linear regression's assumptions we construct confidence interva
 #### Relevant Links
  - [GitHub repository](https://github.com/danitamm/boston-housing-linear-regression)
 
-#### Libaries Used
+#### Libraries Used
  - scipy, seaborn, matplotlib, pandas, numpy
 
 # Python Programming Projects
@@ -147,7 +150,7 @@ After validating linear regression's assumptions we construct confidence interva
 A command line program that tracks daily Firefox browser use, saving the information to a json file. An accompanying program reads the saved json files and organizes it into a Pandas dataframe. It currently plots a bar graph of the use metric per website, but can be used to analyze the data in any desired way. 
 #### Data
 As Firefox runs it stores the current session's information a lz4 compressed json file. The file is updated roughly every 5 seconds, allowing the program to closely track internet use.
-#### Libaries Used
+#### Libraries Used
  - numpy, pandas, seaborn, matplotlib
 
 ## Motion Activated Camera
@@ -180,7 +183,7 @@ Data wrangling, feature engineering, and model finetuning with two classic Kaggl
  - [notebook Kaggle link](https://www.kaggle.com/dtamming/titanic-classification)
 
 # Recommended Links
-If you'll forgive the deviation from the stated purpose of this page, here are some things that I find interesting and/or thought-provoking: 
+If you'll forgive the digression, here are some things that I find interesting and/or thought-provoking: 
  - Alan Perlis' ["Epigrams in Programming"](https://www.cs.yale.edu/homes/perlis-alan/quotes.html). Numbers 7 and 16 are my personal favorites.
  - [FiveThirtyEight](https://fivethirtyeight.com/) and its Founder, Nate Silver, [in conversation](https://www.youtube.com/watch?time_continue=45&v=_tMA7F4FA94&feature=emb_logo) with the polymath academic Tyler Cowen
  - [Datasets Subreddit](https://www.reddit.com/r/datasets/)
