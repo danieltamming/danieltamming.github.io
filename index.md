@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://danitamm.github.io/css/style.css">
+<link rel="stylesheet" href="https://danitamm.github.io/assets/css/style.css">
 
 # Daniel Tamming's Data Science Portfolio
 This website summarizes several of the technical projects that I've worked on in the last couple of years. Projects range from practical (a transit routing algorithm, a traffic congestion predictor) to entertaining (a Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talks like a hockey player in a post-game interview), and everything in between. 
