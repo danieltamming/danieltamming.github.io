@@ -103,7 +103,7 @@ Sentiment is classified using the Afinn sentiment lexicon, where each word is as
 ## 4. Data Collection and Cleaning
 ### 4.1. Web Browser Activity Tracker
 #### Product
-A command line program that tracks daily Firefox browser use, saving the information to a json file. An accompanying program reads the saved json files and organizes it into a Pandas dataframe. It currently plots a bar graph of the use metric per website, but can be used to analyze the data in any desired way. 
+A python script that tracks daily Firefox browser use, saving the information to a json file. An accompanying program reads the saved json files and organizes it into a Pandas dataframe. It currently plots a bar graph of the use metric per website, but can be used to analyze the data in any desired way. 
 #### Data
 As Firefox runs it stores the current session's information a lz4 compressed json file. The file is updated roughly every 5 seconds, allowing the program to closely track internet use.
 #### Libraries Used
