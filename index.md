@@ -1,17 +1,17 @@
 <link rel="stylesheet" href="https://danitamm.github.io/assets/css/style.css">
 
 This website summarizes several of the technical projects that I've worked on in the last couple of years. Projects range from practical (a transit routing algorithm, a traffic congestion predictor) to entertaining (a Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talks like a hockey player in a post-game interview), and everything in between. 
-# HELLO
+
 ### Table of Contents:
 1. [Research](#1-research)
-2. [Machine Learning](#machine-learning)
-3. [Data Exploration and Modeling](#data-exploration-and-modeling)
-4. [Data Collection and Cleaning](#data-collection-and-cleaning)
-5. [Statistics](#statistics)
-6. [Python Programing Projects](#python-programming-projects)
-7. [Blogging](#blogging)
-8. [Honorable Mentions](#honorable-mentions)
-9. [Recommended Links](#recommended-links)
+2. [Machine Learning](#2-machine-learning)
+3. [Data Exploration and Modeling](#3-data-exploration-and-modeling)
+4. [Data Collection and Cleaning](#4-data-collection-and-cleaning)
+5. [Statistics](#5-statistics)
+6. [Python Programing Projects](#6-python-programming-projects)
+7. [Blogging](#7-blogging)
+8. [Honorable Mentions](#8-honorable-mentions)
+9. [Recommended Links](#9-recommended-links)
 
 ### Contact:
 - [LinkedIn](https://www.linkedin.com/in/daniel-tamming/)
