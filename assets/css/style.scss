@@ -19,16 +19,16 @@ $body-link-color: #00233D;
   max-width: 75%;
 } //if anything goes wrong uncomment this
 
-body { counter-reset: h2counter; }
-h2 { counter-reset: h3counter; }
-h3 {}
+// body { counter-reset: h2counter; }
+// h2 { counter-reset: h3counter; }
+// h3 {}
 
-h2:before {
-    counter-increment: h2counter;
-    content: counter(h2counter) ".\0000a0\0000a0";
-}
+// h2:before {
+//     counter-increment: h2counter;
+//     content: counter(h2counter) ".\0000a0\0000a0";
+// }
 
-h3:before {
-    counter-increment: h3counter;
-    content: counter(h2counter) "." counter(h3counter) ".\0000a0\0000a0";
-}
+// h3:before {
+//     counter-increment: h3counter;
+//     content: counter(h2counter) "." counter(h3counter) ".\0000a0\0000a0";
+// }
