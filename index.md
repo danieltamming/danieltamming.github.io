@@ -8,7 +8,7 @@ This website summarizes several of the technical projects that I've worked on in
 3. [Data Exploration and Modeling](#3-data-exploration-and-modeling)
 4. [Data Collection and Cleaning](#4-data-collection-and-cleaning)
 5. [Statistics](#5-statistics)
-6. [Python Programming Projects](#6-python-programming-projects)
+6. [Computer Vision](#6-computer-vision)
 7. [Blogging](#7-blogging)
 8. [Honorable Mentions](#8-honorable-mentions)
 9. [Recommended Links](#9-recommended-links)
@@ -149,7 +149,7 @@ Linear regression's assumptions are validated, allowing the enumerated confidenc
 #### Libraries Used
  - scipy, seaborn, matplotlib, pandas, numpy
 
-## 6. Python Programming Projects
+## 6. Computer Vision
 ### 6.1. Motion Activated Camera
 #### Product
 A security camera that begins recording video once motion is detected. Used to investigate my housemates' suspicions that a cat has been sneaking into our house in the early morning via our front door mail slot (the results are inconclusive).
