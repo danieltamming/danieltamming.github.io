@@ -2,7 +2,7 @@
 
 This website summarizes several of the technical projects that I've worked on in the last couple of years. Projects range from practical (a transit routing algorithm, a traffic congestion predictor) to entertaining (a Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talks like a hockey player in a post-game interview), and everything in between. 
 
-Table of Contents:
+### Table of Contents:
 1. [Research](#research)
 2. [Machine Learning](#machine-learning)
 3. [Data Exploration and Modeling](#data-exploration-and-modeling)
@@ -13,7 +13,7 @@ Table of Contents:
 8. [Honorable Mentions](#honorable-mentions)
 9. [Recommended Links](#recommended-links)
 
-Contact:
+### Contact:
 - [LinkedIn](https://www.linkedin.com/in/daniel-tamming/)
 - [GitHub](https://github.com/danitamm)
 - [Kaggle](https://www.kaggle.com/dtamming)
