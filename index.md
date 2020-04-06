@@ -8,7 +8,7 @@ This website summarizes several of the technical projects that I've worked on in
 3. [Data Exploration and Modeling](#3-data-exploration-and-modeling)
 4. [Data Collection and Cleaning](#4-data-collection-and-cleaning)
 5. [Statistics](#5-statistics)
-6. [Python Programing Projects](#6-python-programming-projects)
+6. [Python Programming Projects](#6-python-programming-projects)
 7. [Blogging](#7-blogging)
 8. [Honorable Mentions](#8-honorable-mentions)
 9. [Recommended Links](#9-recommended-links)
@@ -68,14 +68,13 @@ Weakly predictive numerical variables such as hour and coordinates are used to e
 #### Libraries Used
  - catboost, scikit-learn, seaborn, pandas, numpy
 
-
 ### 3.2. Public Transit Travel Optimization For The Greater Toronto Area
 #### Product 
 A program that calculates within 10 seconds the best place for a pedestrian to meet a driver. The command line interface finds the optimal meeting location for any valid query (anywhere within range of Toronto public transit).
 #### Data
 Extracted relevant data from a set of 7 csv files that is made publicly available on the Toronto OpenData website. 
 #### Approach
-By constructing a graphical representation of the 9155 stops and 213 routes, Google API use is limited to only once per query. Data is gathered from the Toronto Open Data website, organized into Pandas dataframes, and used to create the graph.
+By constructing a graphical representation of the 9155 stops and 213 routes, Google API use is limited to only once per query. The data is organized into Pandas dataframes and used to create the graph.
 #### Relevant Links
  - [Toronto Open Data](http://opendata.toronto.ca)
  - [Project GitHub repository](https://github.com/danitamm/mapping)
@@ -102,7 +101,15 @@ Sentiment is classified using the Afinn sentiment lexicon, where each word is as
  - scikit-learn, afinn, nltk, seaborn, matplotlib, numpy, pandas
  
 ## 4. Data Collection and Cleaning
-### 4.1. National Hockey League Interview Transcripts
+### 4.1. Web Browser Activity Tracker
+#### Product
+A command line program that tracks daily Firefox browser use, saving the information to a json file. An accompanying program reads the saved json files and organizes it into a Pandas dataframe. It currently plots a bar graph of the use metric per website, but can be used to analyze the data in any desired way. 
+#### Data
+As Firefox runs it stores the current session's information a lz4 compressed json file. The file is updated roughly every 5 seconds, allowing the program to closely track internet use.
+#### Libraries Used
+ - numpy, pandas, seaborn, matplotlib
+
+### 4.2. National Hockey League Interview Transcripts
 #### Product 
 A csv file with columns team1 and team2 (the two teams in the Stanley Cup Final), the date, the interviewee name and job type (player, coach, other), and the interview transcripts.
 #### Approach
@@ -114,9 +121,9 @@ The website is formatted as sport -> year -> date -> interview page. BeautifulSo
 #### Libaries Used
  - beautifulsoup, pandas, nltk
 
-### 4.2. Medical Mask Donation Hubs
+### 4.3. Medical Mask Donation Hubs
 #### Product
-A web scraping script that creates a csv file with rows for each entry and columns for each of the fields on a medical mask donation hub aggreagation website. The fields describe the hub locations and the type of donations they are accepting. The program was completed as part of an [Upwork](https://www.upwork.com/) project proposal. 
+A web scraping script that creates a csv file with rows for each entry and columns for each of the fields on a medical mask donation hub aggregation website. The fields describe the hub locations and the type of donations they are accepting. The program was completed as part of an [Upwork](https://www.upwork.com/) project proposal. 
 #### Relevant Links
  - [Aggregation website](https://findthemasks.com/give.html)
  - [Project GitHub repository](https://github.com/danitamm/webscrape-mask-donation)
@@ -133,7 +140,7 @@ A web scraping script that creates a csv file with rows for each entry and colum
 4. Given the effects due to the average number of rooms, the logarithm of the percentage of the population that is lower status has a statistically significant effect on the log of the median house value.
 
 #### Data
-The Boston Housing dataset contains medians, means, and proportions of various attributes of 506 different segments of the city of Boston. The median house value is used as the target variable.
+The Boston Housing Dataset contains medians, means, and proportions of various attributes of 506 different segments of the city of Boston. The median house value is used as the target variable.
 #### Approach
 Linear regression's assumptions are validated, allowing the enumerated confidence intervals to be created and hypothesis tests to be conducted. 
 #### Relevant Links
@@ -143,15 +150,7 @@ Linear regression's assumptions are validated, allowing the enumerated confidenc
  - scipy, seaborn, matplotlib, pandas, numpy
 
 ## 6. Python Programming Projects
-### 6.1. Web Browser Activity Tracker
-#### Product
-A command line program that tracks daily Firefox browser use, saving the information to a json file. An accompanying program reads the saved json files and organizes it into a Pandas dataframe. It currently plots a bar graph of the use metric per website, but can be used to analyze the data in any desired way. 
-#### Data
-As Firefox runs it stores the current session's information a lz4 compressed json file. The file is updated roughly every 5 seconds, allowing the program to closely track internet use.
-#### Libraries Used
- - numpy, pandas, seaborn, matplotlib
-
-### 6.2. Motion Activated Camera
+### 6.1. Motion Activated Camera
 #### Product
 A security camera that begins recording video once motion is detected. Used to investigate my housemates' suspicions that a cat has been sneaking into our house in the early morning via our front door mail slot (the results are inconclusive).
 #### Approach
