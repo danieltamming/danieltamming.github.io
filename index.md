@@ -19,7 +19,7 @@ Contact:
 - [Kaggle](https://www.kaggle.com/dtamming)
 - [Medium](https://medium.com/@danieltamming)
 
-## Research
+## 2. Research
 ### Artificial Data Generation for Natural Language Processing Tasks - University of Waterloo Master's Thesis (In Progress)
 A detailed study of various synthetic data generation techniques that provide multi-percentage point accuracy increases to state-of-the-art text classification models. The data generation methods range from rules-based to deep-learning-based approaches. 
 
