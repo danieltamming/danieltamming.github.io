@@ -75,7 +75,7 @@ A program that calculates within 10 seconds the best place for a pedestrian to m
 #### Data
 Extracted relevant data from a set of 7 csv files that is made publicly available on the Toronto OpenData website. 
 #### Approach
-By constructing a graphical representation of the 9155 stops and 213 routes, we restrict our Google API use to only once per query. Relevant data gathered from the Toronto Open Data website and is organized into 2 csv files that are saved to memory and loaded as Pandas dataframes. 
+By constructing a graphical representation of the 9155 stops and 213 routes, Google API use is limited to only once per query. Data is gathered from the Toronto Open Data website, organized into Pandas dataframes, and used to create the graph.
 #### Relevant Links
  - [Toronto Open Data](http://opendata.toronto.ca)
  - [Project GitHub repository](https://github.com/danitamm/mapping)
@@ -127,15 +127,15 @@ A web scraping script that creates a csv file with rows for each entry and colum
 ## 5. Statistics
 ### 5.1. Inference On The Boston Housing Dataset Using Linear Regression
 #### Findings
-1. We can say with 95% confident that for a fixed percentage of the population that is lower status, an increase of 1 in the average number of rooms per house effects between a 5.44 and 13.20 percent increase in the median house value.
-2. We can say with 95% confident that for a fixed average number of rooms per house, an increase of 1 percent in the percentage of the population that is lower status effects between a 0.47 and 0.56 percentage decrease in the median house value.
-3. Even given the effects due to the percentage of the population that is lower status, the average number of rooms has a statistically significant effect on the log of the median house value.
-4. Even given the effects due to the average number of rooms, the logarithm of the percentage of the population that is lower status has a statistically significant effect on the log of the median house value.
+1. One can say with 95% confidence that for a fixed percentage of the population that is lower status, an increase of 1 in the average number of rooms per house effects between a 5.44% and 13.20% increase in the median house value.
+2. One can say with 95% confidence that for a fixed average number of rooms per house, an increase of 1 percent in the percentage of the population that is lower status effects between a 0.47% and 0.56% decrease in the median house value.
+3. Given the effects due to the percentage of the population that is lower status, the average number of rooms has a statistically significant effect on the log of the median house value.
+4. Given the effects due to the average number of rooms, the logarithm of the percentage of the population that is lower status has a statistically significant effect on the log of the median house value.
 
 #### Data
-The Boston Housing dataset contains medians, means, and proportions of various attributes of 506 different segments of the city of Boston. We use the median house value as the target variable.
+The Boston Housing dataset contains medians, means, and proportions of various attributes of 506 different segments of the city of Boston. The median house value is used as the target variable.
 #### Approach
-After validating linear regression's assumptions we construct confidence intervals and test hypotheses regarding the predictive variables' relationships with the target. 
+Linear regression's assumptions are validated, allowing the enumerated confidence intervals to be created and hypothesis tests to be conducted. 
 #### Relevant Links
  - [GitHub repository](https://github.com/danitamm/boston-housing-linear-regression)
 
