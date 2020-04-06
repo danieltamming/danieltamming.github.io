@@ -19,8 +19,8 @@ Contact:
 - [Kaggle](https://www.kaggle.com/dtamming)
 - [Medium](https://medium.com/@danieltamming)
 
-## 2. Research
-### Artificial Data Generation for Natural Language Processing Tasks - University of Waterloo Master's Thesis (In Progress)
+## 1. Research
+### 1.1. Artificial Data Generation for Natural Language Processing Tasks - University of Waterloo Master's Thesis (In Progress)
 A detailed study of various synthetic data generation techniques that provide multi-percentage point accuracy increases to state-of-the-art text classification models. The data generation methods range from rules-based to deep-learning-based approaches. 
 
 #### Relevant Links (Coming Soon)
@@ -29,8 +29,8 @@ A detailed study of various synthetic data generation techniques that provide mu
 #### Libraries Used
  - pytorch, nltk, spacy, huggingface transformers, gensim
 
-## Machine Learning
-### HockeyBot, The Facebook Messenger Chatbot
+## 2. Machine Learning
+### 2.1. HockeyBot, The Facebook Messenger Chatbot
 #### Product
 Upon receiving a message that could plausibly begin a hockey player's interview response (e.g. "Well you know"), the chatbot responds with a 5 sentence continuation of that message. Active for over 4 months, it has maintained a 100% response rate within 30 seconds of receiving a message.
 #### Data
@@ -45,8 +45,8 @@ A unidirectional recurrent neural network is trained on the interview transcript
 #### Libraries Used
  - pytorch
 
-## Data Exploration and Modeling
-### Traffic Congestion Prediction (Geotab Challenge)
+## 3. Data Exploration and Modeling
+### 3.1. Traffic Congestion Prediction (Geotab Challenge)
 #### Product
 A program that predicts the traffic congestion at more than 10,000 intersections in 4 major American cities. It is estimated that the model would achieve results in the 25th percentile of the Kaggle leaderboard. Please see the [modelling notebook](https://www.kaggle.com/dtamming/geotab-modelling/) for an explanation of this estimate. 
 #### Data
@@ -69,7 +69,7 @@ Weakly predictive numerical variables such as hour and coordinates are used to e
  - catboost, scikit-learn, seaborn, pandas, numpy
 
 
-### Public Transit Travel Optimization For The Greater Toronto Area
+### 3.2. Public Transit Travel Optimization For The Greater Toronto Area
 #### Product 
 A program that calculates within 10 seconds the best place for a pedestrian to meet a driver. The command line interface finds the optimal meeting location for any valid query (anywhere within range of Toronto public transit).
 #### Data
@@ -83,7 +83,7 @@ By constructing a graphical representation of the 9155 stops and 213 routes, we 
 #### Libraries Used
  - networkx, pandas, numpy
 
-### Contrasting Hockey Players' and Coaches' Speech Patterns
+### 3.3. Contrasting Hockey Players' and Coaches' Speech Patterns
 #### Findings and Product
 1. The difference between coaches' and players' average sentiment is not statistically significant. 
 2. The difference between coaches' and players' average selfishness is not statistically significant. 
@@ -101,8 +101,8 @@ Sentiment is classified using the Afinn sentiment lexicon, where each word is as
 #### Libraries Used
  - scikit-learn, afinn, nltk, seaborn, matplotlib, numpy, pandas
  
-## Data Collection and Cleaning
-### National Hockey League Interview Transcripts
+## 4. Data Collection and Cleaning
+### 4.1. National Hockey League Interview Transcripts
 #### Product 
 A csv file with columns team1 and team2 (the two teams in the Stanley Cup Final), the date, the interviewee name and job type (player, coach, other), and the interview transcripts.
 #### Approach
@@ -114,7 +114,7 @@ The website is formatted as sport -> year -> date -> interview page. BeautifulSo
 #### Libaries Used
  - beautifulsoup, pandas, nltk
 
-### Medical Mask Donation Hubs
+### 4.2. Medical Mask Donation Hubs
 #### Product
 A web scraping script that creates a csv file with rows for each entry and columns for each of the fields on a medical mask donation hub aggreagation website. The fields describe the hub locations and the type of donations they are accepting. The program was completed as part of an [Upwork](https://www.upwork.com/) project proposal. 
 #### Relevant Links
@@ -124,8 +124,8 @@ A web scraping script that creates a csv file with rows for each entry and colum
 #### Libraries Used
  - beautifulsoup, selenium, numpy, pandas
 
-## Statistics
-### Inference On The Boston Housing Dataset Using Linear Regression
+## 5. Statistics
+### 5.1. Inference On The Boston Housing Dataset Using Linear Regression
 #### Findings
 1. We can say with 95% confident that for a fixed percentage of the population that is lower status, an increase of 1 in the average number of rooms per house effects between a 5.44 and 13.20 percent increase in the median house value.
 2. We can say with 95% confident that for a fixed average number of rooms per house, an increase of 1 percent in the percentage of the population that is lower status effects between a 0.47 and 0.56 percentage decrease in the median house value.
@@ -142,8 +142,8 @@ After validating linear regression's assumptions we construct confidence interva
 #### Libraries Used
  - scipy, seaborn, matplotlib, pandas, numpy
 
-## Python Programming Projects
-### Web Browser Activity Tracker
+## 6. Python Programming Projects
+### 6.1. Web Browser Activity Tracker
 #### Product
 A command line program that tracks daily Firefox browser use, saving the information to a json file. An accompanying program reads the saved json files and organizes it into a Pandas dataframe. It currently plots a bar graph of the use metric per website, but can be used to analyze the data in any desired way. 
 #### Data
@@ -151,7 +151,7 @@ As Firefox runs it stores the current session's information a lz4 compressed jso
 #### Libraries Used
  - numpy, pandas, seaborn, matplotlib
 
-### Motion Activated Camera
+### 6.2. Motion Activated Camera
 #### Product
 A security camera that begins recording video once motion is detected. Used to investigate my housemates' suspicions that a cat has been sneaking into our house in the early morning via our front door mail slot (the results are inconclusive).
 #### Approach
@@ -159,28 +159,28 @@ Motion is detected by background subtraction, in which the difference between ea
 #### Libraries Used
  - opencv, numpy
 
-## Blogging
+## 7. Blogging
 Medium posts explaining elements of the above projects. 
-### NHL Player Chatbot
+### 7.1. NHL Player Chatbot
  - Selected by Medium curators for distribution in the site's AI and Machine Learning sections
  - Published on Analytics Vidhya's Medium page
  - [Medium link](https://medium.com/analytics-vidhya/nhl-player-chatbot-5c882e330fb7)
 
-### A Quantitative Study of NHL Interviews
+### 7.2. A Quantitative Study of NHL Interviews
  - Published on Analytics Vidhya's Medium page
  - [Medium link](https://medium.com/analytics-vidhya/nhl-player-chatbot-5c882e330fb7)
 
-## Honorable Mentions
+## 8. Honorable Mentions
 Data wrangling, feature engineering, and model fine-tuning with two classic Kaggle datasets. As of March 30, 2020, the resultant models achieved results in the following percentiles of the competitions: 
-### Kaggle House Prices
+### 8.1. Kaggle House Prices
  - 21st percentile (first of two submissions)
  - [notebook Kaggle link](https://www.kaggle.com/dtamming/house-prices)
 
-### Titanic Classification
+### 8.2. Titanic Classification
  - 18th percentile (first and only submission)
  - [notebook Kaggle link](https://www.kaggle.com/dtamming/titanic-classification)
 
-## Recommended Links
+## 9. Recommended Links
 If you'll forgive the digression, here are some things that I find interesting and/or thought-provoking: 
  - Alan Perlis' ["Epigrams in Programming"](https://www.cs.yale.edu/homes/perlis-alan/quotes.html). Numbers 7 and 16 are my personal favorites.
  - [FiveThirtyEight](https://fivethirtyeight.com/) and its Founder, Nate Silver, [in conversation](https://www.youtube.com/watch?time_continue=45&v=_tMA7F4FA94&feature=emb_logo) with the polymath academic Tyler Cowen
