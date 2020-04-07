@@ -2,7 +2,7 @@
 
 This website summarizes several of the technical projects that I've worked on in the last couple of years. Projects range from practical (a transit routing algorithm, a traffic congestion predictor) to entertaining (a Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talks like a hockey player in a post-game interview), and everything in between. 
 
-### Table of Contents:
+### **Table of Contents**:
 1. [Research](#1-research)
 2. [Machine Learning](#2-machine-learning)
 3. [Data Exploration and Modeling](#3-data-exploration-and-modeling)
@@ -13,7 +13,7 @@ This website summarizes several of the technical projects that I've worked on in
 8. [Honorable Mentions](#8-honorable-mentions)
 9. [Recommended Links](#9-recommended-links)
 
-### Contact:
+### **Contact**:
 - [LinkedIn](https://www.linkedin.com/in/daniel-tamming/)
 - [GitHub](https://github.com/danitamm)
 - [Kaggle](https://www.kaggle.com/dtamming)
@@ -30,7 +30,7 @@ A detailed study of various synthetic data generation techniques that provide mu
 #### Libraries Used
  - pytorch, nltk, spacy, huggingface transformers, gensim
 
-## 2. Machine Learning
+## **2. Machine Learning**
 ### 2.1. HockeyBot, The Facebook Messenger Chatbot
 #### Product
 Upon receiving a message that could plausibly begin a hockey player's interview response (e.g. "Well you know"), the chatbot responds with a 5 sentence continuation of that message. Active for over 4 months, it has maintained a 100% response rate within 30 seconds of receiving a message.
@@ -46,7 +46,7 @@ A unidirectional recurrent neural network is trained on the interview transcript
 #### Libraries Used
  - pytorch
 
-## 3. Data Exploration and Modeling
+## **3. Data Exploration and Modeling**
 ### 3.1. Traffic Congestion Prediction (Geotab Challenge)
 #### Product
 A program that predicts the traffic congestion at more than 10,000 intersections in 4 major American cities. It is estimated that the model would achieve results in the 25th percentile of the Kaggle leaderboard. Please see the [modelling notebook](https://www.kaggle.com/dtamming/geotab-modelling/) for an explanation of this estimate. 
@@ -101,7 +101,7 @@ Sentiment is classified using the Afinn sentiment lexicon, where each word is as
 #### Libraries Used
  - scikit-learn, afinn, nltk, seaborn, matplotlib, numpy, pandas
  
-## 4. Data Collection and Cleaning
+## **4. Data Collection and Cleaning**
 ### 4.1. Web Browser Activity Tracker
 #### Product
 A python script that tracks daily Firefox browser use, saving the information to a json file. An accompanying program reads the saved json file and organizes it into a Pandas dataframe. It currently plots a bar graph of a use metric for each website, but can be used to analyze the data in any desired way. The following use metrics are currently supported:
@@ -138,7 +138,7 @@ A web scraping script that creates a csv file with rows for each entry and colum
 #### Libraries Used
  - beautifulsoup, selenium, numpy, pandas
 
-## 5. Statistics
+## **5. Statistics**
 ### 5.1. Inference On The Boston Housing Dataset Using Linear Regression
 #### Findings
 1. One can say with 95% confidence that for a fixed percentage of the population that is lower status, an increase of 1 in the average number of rooms per house effects between a 5.44% and 13.20% increase in the median house value.
@@ -156,7 +156,7 @@ Linear regression's assumptions are validated, allowing the enumerated confidenc
 #### Libraries Used
  - scipy, seaborn, matplotlib, pandas, numpy
 
-## 6. Computer Vision
+## **6. Computer Vision**
 ### 6.1. Motion Activated Camera
 #### Product
 A security camera that begins recording video once motion is detected. Used to investigate my housemates' suspicions that a cat has been sneaking into our house in the early morning via our front door mail slot (the results are inconclusive).
@@ -165,7 +165,7 @@ Motion is detected by background subtraction, in which the difference between ea
 #### Libraries Used
  - opencv, numpy
 
-## 7. Blogging
+## **7. Blogging**
 Medium posts explaining elements of the above projects. 
 ### 7.1. NHL Player Chatbot
  - Selected by Medium curators for distribution in the site's AI and Machine Learning sections
@@ -176,7 +176,7 @@ Medium posts explaining elements of the above projects.
  - Published on Analytics Vidhya's Medium page
  - [Medium link](https://medium.com/analytics-vidhya/nhl-player-chatbot-5c882e330fb7)
 
-## 8. Honorable Mentions
+## **8. Honorable Mentions**
 Data wrangling, feature engineering, and model fine-tuning with two classic Kaggle datasets. As of March 30, 2020, the resultant models achieved results in the following percentiles of the competitions: 
 ### 8.1. Kaggle House Prices
  - 21st percentile (first of two submissions)
@@ -186,7 +186,7 @@ Data wrangling, feature engineering, and model fine-tuning with two classic Kagg
  - 18th percentile (first and only submission)
  - [notebook Kaggle link](https://www.kaggle.com/dtamming/titanic-classification)
 
-## 9. Recommended Links
+## **9. Recommended Links**
 If you'll forgive the digression, here are some things that I find interesting and/or thought-provoking: 
  - Alan Perlis' ["Epigrams in Programming"](https://www.cs.yale.edu/homes/perlis-alan/quotes.html). Numbers 7 and 16 are my personal favorites.
  - [FiveThirtyEight](https://fivethirtyeight.com/) and its Founder, Nate Silver, [in conversation](https://www.youtube.com/watch?time_continue=45&v=_tMA7F4FA94&feature=emb_logo) with the polymath academic Tyler Cowen
