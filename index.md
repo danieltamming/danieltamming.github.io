@@ -34,7 +34,7 @@ A detailed study of various synthetic data generation techniques that provide mu
 #### Product
 Upon receiving a message that could plausibly begin a hockey player's interview response (e.g. "Well you know"), the chatbot responds with a 5 sentence continuation of that message. Active for over 4 months, it has maintained a 100% response rate within 30 seconds of receiving a message.
 #### Data
-The dataset described in the [National Hockey League Interview Transcripts](4-2-national-hockey-league-interview-transcripts) project.
+The dataset described in the [National Hockey League Interview Transcripts](42-national-hockey-league-interview-transcripts) project.
 #### Approach
 A unidirectional recurrent neural network is trained on the interview transcript data. Each string of 6 contiguous words forms a training example, where the first 5 are the input and the 6th is the label. Having learned a probability distribution over the possible choices for the next word, this distribution is sampled to generate new text. This model is then deployed to a Heroku server that responds to all messages at any time. 
 #### Relevant Links
