@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="https://danitamm.github.io/assets/css/style.css">
 
-This website summarizes several of the technical projects that I've worked on in the last couple of years. Projects range from practical (a transit routing algorithm, a traffic congestion predictor) to entertaining (a Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talks like a hockey player in a post-game interview), and everything in between. 
+This website summarizes several of the technical projects that I've worked on in the last couple of years. Projects range from practical (transit routing algorithm, traffic congestion predictor) to entertaining (Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talks like a hockey player in a post-game interview), and everything in between. 
 
 ### **Table of Contents**:
 1. [Research](#1-research)
@@ -13,7 +13,7 @@ This website summarizes several of the technical projects that I've worked on in
 8. [Honorable Mentions](#8-honorable-mentions)
 9. [Recommended Links](#9-recommended-links)
 
-### **Contact**:
+### **My Contact**:
 - [LinkedIn](https://www.linkedin.com/in/daniel-tamming/)
 - [GitHub](https://github.com/danitamm)
 - [Kaggle](https://www.kaggle.com/dtamming)
@@ -30,11 +30,11 @@ A detailed study of various synthetic data generation techniques that provide mu
  - pytorch, nltk, spacy, huggingface transformers, gensim
 
 ## **2. Machine Learning**
-### 2.1. HockeyBot, The Facebook Messenger Chatbot
+### 2.1. HockeyBot - The Facebook Messenger Chatbot
 #### Product
 Upon receiving a message that could plausibly begin a hockey player's interview response (e.g. "Well you know"), the chatbot responds with a 5 sentence continuation of that message. Active for over 4 months, it has maintained a 100% response rate within 30 seconds of receiving a message.
 #### Data
-See "National Hockey League Interview Transcripts" in the Data Collection and Cleaning section of this page.
+See [National Hockey League Interview Transcripts]() in the Data Collection and Cleaning section of this page.
 #### Approach
 A unidirectional recurrent neural network is trained on the interview transcript data. Each string of 6 contiguous words forms a training example, where the first 5 are the input and the 6th is the label. Having learned a probability distribution over the possible choices for the next word, this distribution is sampled to generate new text. This model is then deployed to a Heroku server that responds to all messages at any time. 
 #### Relevant Links
@@ -68,9 +68,11 @@ Weakly predictive numerical variables such as hour and coordinates are used to e
 #### Libraries Used
  - catboost, scikit-learn, seaborn, pandas, numpy
 
-### 3.2. Public Transit Travel Optimization For The Greater Toronto Area
-#### Product 
-Imagine Jack and Jill, starting from different locations, have a shared destination. Jill is planning to drive, and agrees to pick Jack up at a transit stop on the condition that she does not have to go any further out of her way than strictly necessary. Which stop should Jack travel to? This program calculates within 10 seconds the answer to this question, giving a valid answer as long as Jack's starting location is within range of the Toronto public transit system.
+### 3.2. Public Transit Optimization for the Greater Toronto Area
+#### The Problem
+Imagine Jack and Jill, starting from different locations, have a shared destination. Jill is planning to drive, and agrees to pick Jack up at a transit stop on the condition that she does not have to go any further out of her way than strictly necessary. Which stop should Jack travel to? 
+#### The Solution
+This program calculates within 10 seconds the answer to this question, giving a valid answer as long as Jack's starting location is within range of the Toronto public transit system.
 #### Data
 Extracted relevant data from a set of 7 csv files that is made publicly available on the Toronto OpenData website. 
 #### Approach
