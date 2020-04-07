@@ -70,7 +70,7 @@ Weakly predictive numerical variables such as hour and coordinates are used to e
 
 ### 3.2. Public Transit Travel Optimization For The Greater Toronto Area
 #### Product 
-A program that calculates within 10 seconds the best place for a pedestrian to meet a driver. The command line interface finds the optimal meeting location for any valid query (anywhere within range of Toronto public transit).
+Imagine Jack and Jill, starting from different locations, have a shared destination. Jill is planning to drive, and agrees to pick Jack up at a transit stop on the condition that she does not have to go any further out of her way than strictly necessary. Which stop should Jack travel to? This program calculates within 10 seconds the answer to this question, giving a valid answer as long as Jack's starting location is within range of the Toronto public transit system.
 #### Data
 Extracted relevant data from a set of 7 csv files that is made publicly available on the Toronto OpenData website. 
 #### Approach
