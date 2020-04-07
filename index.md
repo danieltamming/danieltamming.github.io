@@ -50,7 +50,7 @@ A unidirectional recurrent neural network is trained on the interview transcript
 #### Product
 A program that predicts the traffic congestion at more than 10,000 intersections in 4 major American cities. It is estimated that the model would achieve results in the 25th percentile of the Kaggle leaderboard. Please see the [modelling notebook](https://www.kaggle.com/dtamming/geotab-modelling/) for an explanation of this estimate. 
 #### Data
-The 20th, 50th, and 80th percentiles of two traffic congestion metrics: 
+The 20th, 50th, and 80th percentiles of the following two traffic congestion metrics were used: 
 
 1. The total time spent waiting at an intersection 
 2. The distance between the center of the intersection and the place at which the vehicle first stops. 
@@ -59,7 +59,7 @@ These metrics are aggregated by city, intersection, month, hour of the day, entr
 #### Goal
 Given a training set with all variables and a test set with only the aggregation variables, predict each of the six metric-percentile pairs on the test set.
 #### Approach
-Weakly predictive numerical variables such as hour and coordinates are used to engineer strongly predictive variables such as "time to rush hour" and "distance from city center". It is observed that dummy encoding of over 10,000 unique intersections would not fit into memory. This important feature is kept in the training set by using a [gradient boosted trees library](https://catboost.ai/) that has a novel [encoding method](https://catboost.ai/docs/concepts/algorithm-main-stages_cat-to-numberic.html) for high-cardinality variables. Hyperparameter tuning and early stopping are used to ensure that the model fits the data well.
+Weakly predictive variables such as coordinates, entrance and exit orientation are used to engineer strongly predictive variables such as distance from city center and direction of turn. It is observed that dummy encoding of over 10,000 unique intersections would not fit into memory. This important feature is kept in the training set by using a [gradient boosted trees library](https://catboost.ai/) that has a novel [encoding method](https://catboost.ai/docs/concepts/algorithm-main-stages_cat-to-numberic.html) for high-cardinality variables. Hyperparameter tuning and early stopping are used to ensure that the model fits the data well.
 #### Relevant Links
  - [Data Exploration Notebook](https://www.kaggle.com/dtamming/geotab-exploration/)
  - [Modelling Notebook](https://www.kaggle.com/dtamming/geotab-modelling/)
@@ -110,7 +110,7 @@ A python script that tracks daily Firefox browser use, saving the information to
 2. Length of time that each webpage was open
 
 #### Data
-As Firefox runs, it stores the current session's information, including each open tab's title and url, in an lz4 compressed json file. This file does not contain any historical data - it only contains information pertaining to the open tabs at the time of update. The frequency at which the file is updated can vary, but it is usually every 5 seconds. 
+As Firefox runs, it stores the current session's information (e.g. each open tab's title and url) in an lz4 compressed json file. This file does not contain any historical data - it only contains information pertaining to the open tabs at the time of update. The frequency at which the file is updated can vary, but it is usually every 5 seconds. 
 #### Approach
 The python script reads the lz4 file at a predefined frequency, 1 Hz by default. It compares the current reading to the previous reading, noting the current time and the webpages that have appeared or disappeared. In doing so it compiles a history of the time at which a user opened and closed each visited webpage. 
 
@@ -139,11 +139,13 @@ A web scraping script that creates a csv file with rows for each entry and colum
 #### Libraries Used
  - beautifulsoup, selenium, numpy, pandas
 
+One can say with 95% confidence that for a fixed percentage of the population that is lower status, an increase of 1 in the average number of rooms per house results in an increase of between 5.44% and 13.20% in the median house value.
+
 ## **5. Statistics**
 ### 5.1. Inference on the Boston Housing Dataset Using Linear Regression
 #### Findings
-1. One can say with 95% confidence that for a fixed percentage of the population that is lower status, an increase of 1 in the average number of rooms per house effects between a 5.44% and 13.20% increase in the median house value.
-2. One can say with 95% confidence that for a fixed average number of rooms per house, an increase of 1 percent in the percentage of the population that is lower status effects between a 0.47% and 0.56% decrease in the median house value.
+1. One can say with 95% confidence that for a fixed percentage of the population that is lower status, an increase of 1 in the average number of rooms per house results in an increase of between 5.44% and 13.20% in the median house value.
+2. One can say with 95% confidence that for a fixed average number of rooms per house, an increase of 1 percent in the percentage of the population that is lower status results in a decease of betweeen 0.47% and 0.56% in the median house value.
 3. Given the effects due to the percentage of the population that is lower status, the average number of rooms has a statistically significant effect on the log of the median house value.
 4. Given the effects due to the average number of rooms, the logarithm of the percentage of the population that is lower status has a statistically significant effect on the log of the median house value.
 
