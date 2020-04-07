@@ -2,6 +2,11 @@
 
 This website summarizes several of the technical projects that I've worked on in the last couple of years. Projects range from practical (transit routing algorithm, traffic congestion predictor) to entertaining (Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talks like a hockey player in a post-game interview), and everything in between. 
 
+# TODO
+- make links lighter
+- capitalize python packages
+- check title capitalization
+
 ### **My Contact and Other Work**
 - [LinkedIn](https://www.linkedin.com/in/daniel-tamming/)
 - [GitHub](https://github.com/danitamm)
@@ -138,8 +143,6 @@ A web scraping script that creates a csv file with rows for each entry and colum
 
 #### Libraries Used
  - beautifulsoup, selenium, numpy, pandas
-
-One can say with 95% confidence that for a fixed percentage of the population that is lower status, an increase of 1 in the average number of rooms per house results in an increase of between 5.44% and 13.20% in the median house value.
 
 ## **5. Statistics**
 ### 5.1. Inference on the Boston Housing Dataset Using Linear Regression
