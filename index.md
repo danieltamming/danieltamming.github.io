@@ -34,7 +34,7 @@ A detailed study of various synthetic data generation techniques that provide mu
 #### Product
 Upon receiving a message that could plausibly begin a hockey player's interview response (e.g. "Well you know"), the chatbot responds with a 5 sentence continuation of that message. Active for over 4 months, it has maintained a 100% response rate within 30 seconds of receiving a message.
 #### Data
-See [National Hockey League Interview Transcripts]() in the Data Collection and Cleaning section of this page.
+The dataset described in the [National Hockey League Interview Transcripts](4-2-national-hockey-league-interview-transcripts) project.
 #### Approach
 A unidirectional recurrent neural network is trained on the interview transcript data. Each string of 6 contiguous words forms a training example, where the first 5 are the input and the 6th is the label. Having learned a probability distribution over the possible choices for the next word, this distribution is sampled to generate new text. This model is then deployed to a Heroku server that responds to all messages at any time. 
 #### Relevant Links
@@ -110,7 +110,7 @@ A python script that tracks daily Firefox browser use, saving the information to
 2. Length of time that each webpage was open
 
 #### Data
-As Firefox runs it stores the current session's information, including each open tab's title and url, in an lz4 compressed json file. This file does not contain any historical data - it only contains information pertaining to the open tabs at the time of update. The frequency at which the file is updated can vary but it is usually every 5 seconds. 
+As Firefox runs, it stores the current session's information, including each open tab's title and url, in an lz4 compressed json file. This file does not contain any historical data - it only contains information pertaining to the open tabs at the time of update. The frequency at which the file is updated can vary, but it is usually every 5 seconds. 
 #### Approach
 The python script reads the lz4 file at a predefined frequency, 1 Hz by default. It compares the current reading to the previous reading, noting the current time and the webpages that have appeared or disappeared. In doing so it compiles a history of the time at which a user opened and closed each visited webpage. 
 
@@ -140,7 +140,7 @@ A web scraping script that creates a csv file with rows for each entry and colum
  - beautifulsoup, selenium, numpy, pandas
 
 ## **5. Statistics**
-### 5.1. Inference On The Boston Housing Dataset Using Linear Regression
+### 5.1. Inference on the Boston Housing Dataset Using Linear Regression
 #### Findings
 1. One can say with 95% confidence that for a fixed percentage of the population that is lower status, an increase of 1 in the average number of rooms per house effects between a 5.44% and 13.20% increase in the median house value.
 2. One can say with 95% confidence that for a fixed average number of rooms per house, an increase of 1 percent in the percentage of the population that is lower status effects between a 0.47% and 0.56% decrease in the median house value.
@@ -167,7 +167,7 @@ Motion is detected by background subtraction, in which the difference between ea
  - opencv, numpy
 
 ## **7. Blogging**
-Medium posts explaining elements of the above projects. 
+Medium posts explaining elements of certain projects. 
 ### 7.1. NHL Player Chatbot
  - Selected by Medium curators for distribution in the site's AI and Machine Learning sections
  - Published on Analytics Vidhya's Medium page
