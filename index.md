@@ -2,6 +2,12 @@
 
 This website summarizes several of the technical projects that I've worked on in the last couple of years. Projects range from practical (transit routing algorithm, traffic congestion predictor) to entertaining (Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talks like a hockey player in a post-game interview), and everything in between. 
 
+### **Contact Information**
+- [LinkedIn](https://www.linkedin.com/in/daniel-tamming/)
+- [GitHub](https://github.com/danitamm)
+- [Kaggle](https://www.kaggle.com/dtamming)
+- [Medium](https://medium.com/@danieltamming)
+
 ### **Table of Contents**
 1. [Research](#1-research)
 2. [Machine Learning](#2-machine-learning)
@@ -12,12 +18,6 @@ This website summarizes several of the technical projects that I've worked on in
 7. [Blogging](#7-blogging)
 8. [Honorable Mentions](#8-honorable-mentions)
 9. [Recommended Links](#9-recommended-links)
-
-### **Find Me At**
-- [LinkedIn](https://www.linkedin.com/in/daniel-tamming/)
-- [GitHub](https://github.com/danitamm)
-- [Kaggle](https://www.kaggle.com/dtamming)
-- [Medium](https://medium.com/@danieltamming)
 
 ## **1. Research**
 ### 1.1. Artificial Data Generation for Natural Language Processing Tasks - University of Waterloo Master's Thesis (In Progress)
