@@ -73,7 +73,7 @@ Weakly predictive variables such as coordinates, entrance and exit orientation a
  - [Dataset](https://www.kaggle.com/c/bigquery-geotab-intersection-congestion/data)
 
 #### Libraries Used
- - CatBoost, scikit-learn, Pandas, NumPy, seaborn
+ - CatBoost, Pandas, NumPy, scikit-learn, seaborn
 
 ### 3.2. Public Transit Optimization for the Greater Toronto Area
 #### The Problem
@@ -134,7 +134,7 @@ The website is formatted as sport -> year -> date -> interview page. BeautifulSo
  - [Project GitHub repository](https://github.com/danitamm/interview-analysis)
 
 #### Libaries Used
- - beautifulsoup, pandas, nltk
+ - Beautiful Soup, NLTK, Pandas
 
 ### 4.3. Medical Mask Donation Hubs
 #### Product
