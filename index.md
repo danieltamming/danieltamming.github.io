@@ -79,11 +79,11 @@ Weakly predictive variables such as coordinates, entrance and exit orientation a
 #### The Problem
 Imagine Jack and Jill, starting from different locations, have a shared destination. Jill is planning to drive, and agrees to pick Jack up at a transit stop on the condition that she does not have to go any further out of her way than strictly necessary. Which stop should Jack travel to? 
 #### The Solution
-This program calculates within 10 seconds the answer to this question, giving a valid answer as long as Jack's starting location is within range of the Toronto public transit system.
+This program calculates within 10 seconds the answer to the above question. It gives the correct answer as long as Jack's starting location is within range of the Toronto public transit system.
 #### Data
 Extracted relevant data from a set of 7 csv files that is made publicly available on the Toronto OpenData website. 
 #### Approach
-By constructing a graphical representation of the 9155 stops and 213 routes, Google API use is limited to only once per query. The data is organized into Pandas dataframes and used to create the graph.
+The data is organized into Pandas dataframes and used to create a NetworkX graph. By constructing a graphical representation of the 9155 stops and 213 routes, Google API use is limited to only once per query. 
 #### Relevant Links
  - [Toronto Open Data](http://opendata.toronto.ca)
  - [Project GitHub repository](https://github.com/danitamm/mapping)
