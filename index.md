@@ -34,7 +34,7 @@ This description is intentionally vague - details will be provided upon completi
  - GitHub repo will be made public upon completion
 
 #### Libraries Used
- - pytorch, nltk, spacy, huggingface transformers, gensim
+ - PyTorch, PyTorch-Transformers, NLTK, Gensim, spaCy
 
 ## **2. Machine Learning**
 ### 2.1. HockeyBot - The Facebook Messenger Chatbot
@@ -50,7 +50,7 @@ A unidirectional recurrent neural network is trained on the interview transcript
  - [Bot Heroku deployment GitHub repository](https://github.com/danitamm/HockeyBotProduction)
 
 #### Libraries Used
- - pytorch
+ - PyTorch
 
 ## **3. Data Exploration and Modeling**
 ### 3.1. Traffic Congestion Prediction
@@ -73,7 +73,7 @@ Weakly predictive variables such as coordinates, entrance and exit orientation a
  - [Dataset](https://www.kaggle.com/c/bigquery-geotab-intersection-congestion/data)
 
 #### Libraries Used
- - catboost, scikit-learn, seaborn, pandas, numpy
+ - CatBoost, scikit-learn, Pandas, NumPy, seaborn
 
 ### 3.2. Public Transit Optimization for the Greater Toronto Area
 #### The Problem
@@ -89,7 +89,7 @@ By constructing a graphical representation of the 9155 stops and 213 routes, Goo
  - [Project GitHub repository](https://github.com/danitamm/mapping)
 
 #### Libraries Used
- - networkx, pandas, numpy
+ - NetworkX, Pandas, NumPy
 
 ### 3.3. Contrasting Hockey Players' and Coaches' Speech Patterns
 #### Findings and Product
@@ -107,7 +107,7 @@ Sentiment is classified using the Afinn sentiment lexicon, where each word is as
  - [Kaggle Kernel](https://www.kaggle.com/dtamming/starter-kernel-nhl-interviews), published alongside my dataset
 
 #### Libraries Used
- - scikit-learn, afinn, nltk, seaborn, matplotlib, numpy, pandas
+ - AFINN, NLTK, Pandas, NumPy, seaborn, matplotlib, scikit-learn
  
 ## **4. Data Collection and Cleaning**
 ### 4.1. Web Browser Activity Tracker
@@ -122,7 +122,7 @@ As Firefox runs, it stores the current session's information (e.g. each open tab
 The python script reads the lz4 file at a predefined frequency, 1 Hz by default. It compares the current reading to the previous reading, noting the current time and the webpages that have appeared or disappeared. In doing so it compiles a history of the time at which a user opened and closed each visited webpage. 
 
 #### Libraries Used
- - numpy, pandas, seaborn, matplotlib
+ - Pandas, NumPy, seaborn, matplotlib
 
 ### 4.2. National Hockey League Interview Transcripts
 #### Product 
@@ -144,7 +144,7 @@ A web scraping script that creates a csv file with rows for each entry and colum
  - [Project GitHub repository](https://github.com/danitamm/webscrape-mask-donation)
 
 #### Libraries Used
- - beautifulsoup, selenium, numpy, pandas
+ - Beautiful Soup, Selenium, Pandas, NumPy
 
 ## **5. Statistics**
 ### 5.1. Inference on the Boston Housing Dataset Using Linear Regression
@@ -162,7 +162,7 @@ Linear regression's assumptions are validated, allowing the enumerated confidenc
  - [GitHub repository](https://github.com/danitamm/boston-housing-linear-regression)
 
 #### Libraries Used
- - scipy, seaborn, matplotlib, pandas, numpy
+ - SciPy, Pandas, NumPy, seaborn, matplotlib
 
 ## **6. Computer Vision**
 ### 6.1. Motion Activated Camera
@@ -171,7 +171,7 @@ A security camera that begins recording video once motion is detected. Used to i
 #### Approach
 Motion is detected by background subtraction, in which the difference between each consecutive frame is calculated and studied. The frames are converted to grayscale, blurred with a Gaussian filter, and the element-wise absolute difference between frames is computed. The threshold is applied to the result to map each value to 0 or 255. The resultant image is dilated for display purposes. When motion is detected for 5 consecutive frames, it begins saving the video feeds. These are saved until 30 seconds have passed without any movement. The videos are saved to timestamped folders, and the camera feed video is annotated with the time and the status (whether motion is detected at each given moment). 
 #### Libraries Used
- - opencv, numpy
+ - OpenCV, NumPy
 
 ## **7. Blogging**
 Medium posts explaining elements of certain projects. 
