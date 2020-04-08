@@ -4,7 +4,7 @@ This website summarizes several of the technical projects that I've worked on in
 
 ### **My Contact and Other Work**
 - [LinkedIn](https://www.linkedin.com/in/daniel-tamming/)
-- [GitHub](https://github.com/danitamm)
+- [GitHub](https://github.com/danieltamming)
 - [Kaggle](https://www.kaggle.com/dtamming)
 - [Medium](https://medium.com/@danieltamming)
 
