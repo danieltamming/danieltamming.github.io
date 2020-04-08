@@ -2,11 +2,6 @@
 
 This website summarizes several of the technical projects that I've worked on in the last couple of years. Projects range from practical (transit routing algorithm, traffic congestion predictor) to entertaining (Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talks like a hockey player in a post-game interview), and everything in between. 
 
-# TODO
-- make links lighter
-- capitalize python packages
-- check title capitalization
-
 ### **My Contact and Other Work**
 - [LinkedIn](https://www.linkedin.com/in/daniel-tamming/)
 - [GitHub](https://github.com/danitamm)
