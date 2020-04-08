@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="https://danitamm.github.io/assets/css/style.css">
 
-This website summarizes several of the technical projects that I've worked on in the last couple of years. From a transit routing algorithm and a traffic congestion predictor to a Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talks like a hockey player in an interview, project deliverables range from practical and informative to entertaining.  What they all have in common, however, is that they served as an opportunity to deepen my understanding of a certain method or technology while tackling an interesting problem. 
+This website summarizes several of the technical projects that I've worked on in the last couple of years. From a transit routing algorithm and a traffic congestion predictor to a Messenger [chatbot](https://www.messenger.com/t/102447081166159) that talks like a hockey player in an interview, project deliverables range from practical and informative to entertaining.  What they all have in common is that they served as an opportunity to deepen my understanding of a certain method or technology while tackling an interesting problem. 
 
 ### **My Contact and Other Work**
 - [LinkedIn](https://www.linkedin.com/in/daniel-tamming/)
