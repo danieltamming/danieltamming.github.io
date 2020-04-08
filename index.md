@@ -16,7 +16,7 @@ This website summarizes several of the technical projects that I've worked on in
 ### **Table of Contents**
 1. [Research](#1-research)
 2. [Machine Learning](#2-machine-learning)
-3. [Data Exploration and Modeling](#3-data-exploration-and-modeling)
+3. [Data Exploration and Modelling](#3-data-exploration-and-modelling)
 4. [Data Collection and Cleaning](#4-data-collection-and-cleaning)
 5. [Statistics](#5-statistics)
 6. [Computer Vision](#6-computer-vision)
@@ -52,7 +52,7 @@ A unidirectional recurrent neural network is trained on the interview transcript
 #### Libraries Used
  - PyTorch
 
-## **3. Data Exploration and Modeling**
+## **3. Data Exploration and Modelling**
 ### 3.1. Traffic Congestion Prediction
 #### Product
 A program that predicts the traffic congestion at more than 10,000 intersections in 4 major American cities. It is estimated that the model would achieve results in the 25th percentile of the Kaggle leaderboard. Please see the [modelling notebook](https://www.kaggle.com/dtamming/geotab-modelling/) for an explanation of this estimate. 
