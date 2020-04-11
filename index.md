@@ -88,7 +88,7 @@ The data is organized into Pandas dataframes and used to create a NetworkX graph
 
 ### 3.3. Contrasting Hockey Players' and Coaches' Speech Patterns
 #### Findings and Product
-1. The difference between coaches' and players' average sentiment is not statistically significant. 
+1. The average sentiment of players is more positive than that of coaches, and this difference is statistically significant. 
 2. The difference between coaches' and players' average selfishness is not statistically significant. 
 3. The variance in both sentiment and selfishness is greater for players than it is for coaches.
 4. A model classifying speech as from a coach or from a player is trained and achieves an F1 score of 0.969 on the test set.  
