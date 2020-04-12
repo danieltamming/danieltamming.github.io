@@ -165,6 +165,9 @@ Linear regression's assumptions are validated, allowing the enumerated confidenc
 A security camera that begins recording video once motion is detected. Used to investigate my housemates' suspicions that a cat has been sneaking into our house in the early morning via our front door mail slot (the results are inconclusive).
 #### Approach
 Motion is detected by background subtraction, in which the difference between each consecutive frame is calculated and studied. The frames are converted to grayscale, blurred with a Gaussian filter, and the element-wise absolute difference between frames is computed. The threshold is applied to the result to map each value to 0 or 255. The resultant image is dilated for display purposes. When motion is detected for 5 consecutive frames, it begins saving the video feeds. These are saved until 30 seconds have passed without any movement. The videos are saved to timestamped folders, and the camera feed video is annotated with the time and the status (whether motion is detected at each given moment). 
+#### Relevant Links
+ - [GitHub repository](https://github.com/danieltamming/motion-detection)
+
 #### Libraries Used
  - OpenCV, NumPy
 
