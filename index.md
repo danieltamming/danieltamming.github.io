@@ -99,7 +99,7 @@ See "National Hockey League Interview Transcripts" in the Data Collection and Cl
 Sentiment is classified using the Afinn sentiment lexicon, where each word is assigned a sentiment score between -5 and +5. Selfishness is scored using the same approach but with a simple lexicon of my creation, where first person singular and first person plural pronouns are assigned scores of +1 and -1, respectively. Sentiment and selfishness are both normalized by the number of words in the interview response. The player vs coach classifier is a logistic regression model with TF-IDF features as input. 
 #### Relevant Links
  - [ASAP Sports](http://www.asapsports.com/), the sports interview aggregation site
- - [Kaggle Kernel](https://www.kaggle.com/dtamming/starter-kernel-nhl-interviews), published alongside my dataset
+ - [Kaggle Kernel](https://www.kaggle.com/dtamming/analysis-and-modelling), published alongside my dataset
 
 #### Libraries Used
  - AFINN, NLTK, Pandas, NumPy, seaborn, matplotlib, scikit-learn
