@@ -105,7 +105,7 @@ Extracted relevant data from a set of 7 csv files that is made publicly availabl
 The data is organized into Pandas dataframes and used to create a NetworkX graph. By constructing a graphical representation of the 9155 stops and 213 routes, Google API use is limited to only once per query. 
 #### Relevant Links
  - [Toronto Open Data](http://opendata.toronto.ca)
- - [Project GitHub repository](https://github.com/danitamm/mapping)
+ - [Project GitHub repository](https://github.com/danieltamming/mapping-deployment)
 
 #### Libraries Used
  - NetworkX, Pandas, NumPy
